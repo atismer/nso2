@@ -1,32 +1,31 @@
 ---
-title: "Numerische Strömungsmechanik mit Optimierungsanwendung 2"
-subtitle: "Dr.-Ing. Alexander Tismer<br>Licensed under CC BY-SA 4.0"
+title: "Numerische Strömungsmechanik<br> mit Optimierungsanwendung 2"
+institute: "Universität Stuttgart, Institut für Strömungsmechanik und Hydraulische Strömungsmaschinen"
+author: "Dr.-Ing. Alexander Tismer"
+resources:
+  - "assets/titel_la-circ.png"
+  - "assets/titel-col.png"
 title-slide-attributes:
-  data-background-image: assets/titel_la.png
+  data-background-image: assets/titel-ihs-logo.png, assets/titel_la-circ.png, assets/titel-col.png
+  data-background-size: 10%, 30%, 100% 60%
+  data-background-position: 5% 10%, 90% center, 50% 70%
 format:
   revealjs:
-    menu: false
-    slide-number: true
+    menu: true
+    slide-number: false
     preview-links: auto
-    logo: assets/ihs-logo.png
-#    css: my-white.css
-    theme: custom.scss
+    logo: assets/sm-logo.png
+    theme: 
+      - default
+      - custom.scss
     footer: "Numerische Strömungsmechanik mit Optimierungsanwendung 2"
     code-block-height: 400px
-include-in-header:
-  - text: |
-      <style>
-      #title-slide .title {
-        color: #ffffff;
-        text-align: right;
-      }
-      </style>    
-      <style>
-      #title-slide .subtitle {
-        color: #ffffff;
-        text-align: right;
-      }
-      </style>    
+    width: 1720
+    height: 970
+    auto-stretch: false
+    chalkboard: false
+    mermaid:
+      theme: neutral    
 bibliography: lit.bib
 csl: ieee.csl
 execute:

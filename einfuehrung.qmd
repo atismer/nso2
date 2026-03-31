@@ -1,7 +1,6 @@
 # Einführung
 
 ## Organisation
-### Kontakt und Prüfung
 
 ::: columns
 ::: {.column width="60%"}
@@ -20,8 +19,7 @@
 :::
 :::
 
-## Organisation
-### Konzept
+## Konzept
 
 - Konzept der Vorlesung: 
   [Flip-the-classroom](https://www.fliptheclassroom.de){preview-link="true"}
@@ -34,7 +32,7 @@
   - Keine Präsenz-Pflicht
 - Alle Materialien zum erfolgreichen Bestehen der BSL sind online
 
-## Organisation
+## Konzept
 ### Vorgehensmöglichkeiten
 
 Zu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf 
@@ -52,8 +50,7 @@ unterschiedlichen Wegen erarbeiten:
   3. Mit Übung fortfahren
   4. Weiter bei (2.)
 
-## Inhalt
-### Zeitplan
+## Zeitplan
 
 :::columns
 ::: {.column}
@@ -70,12 +67,12 @@ unterschiedlichen Wegen erarbeiten:
 :::
 ::: {.column}
 
-| Übung                                 |     |
-|--------------------------------------:|:---:|
-| Eindimensionale Konvektion-Diffusion  | 1   |
-| Löser                                 | 2   |
-| SIMPLE-Verfahren                      | 3/4 |
-| Optimierung                           | 5   |
+| Übung                                                            |     |
+|-----------------------------------------------------------------:|:---:|
+| Eindimensionale Konvektion-Diffusion                             | 1   |
+| Löser                                                            | 2   |
+| SIMPLE-Verfahren                                                 | 3/4 |
+| Optimierung                                                      | 5   |
 
 :::
 :::
@@ -83,7 +80,6 @@ unterschiedlichen Wegen erarbeiten:
 6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten
 
 ## Inhalt
-### Überblick 
 
 :::columns
 ::: {.column}
@@ -103,7 +99,6 @@ unterschiedlichen Wegen erarbeiten:
 :::
 
 ## Inhalt
-### Überblick 
 
 :::columns
 ::: {.column}
@@ -125,7 +120,6 @@ unterschiedlichen Wegen erarbeiten:
 :::
 
 ## Inhalt
-### Überblick 
 
 ::::columns
 ::: {.column}
@@ -146,7 +140,6 @@ unterschiedlichen Wegen erarbeiten:
 ::::
 
 ## Inhalt
-### Überblick 
 
 :::columns
 ::: {.column}
@@ -165,7 +158,6 @@ unterschiedlichen Wegen erarbeiten:
 :::
 
 ## Inhalt
-### Überblick 
 
 :::columns
 ::: {.column}
@@ -216,8 +208,7 @@ und @Versteeg_2007
 
 ![](assets/einf-concept-17.png){fig-align="center" .r-stretch}
 
-- [Link](https://uni-stuttgart.conceptboard.com/board/gi5d-ookt-zigt-x3p5-a38i){target="_blank"}
-  zum Board finden Sie auf der Kursseite
+- Link zum Board finden Sie auf der Kursseite
 - Durch einen Klick auf *Abschnitte* gelangen Sie zu den Unterlagen der 
   jeweiligen Vorlesung
 
@@ -251,32 +242,16 @@ Zum Beispiel zur Einheit *Finite-Volumen-Methode und Randbedingungen*
 
 ![](assets/einf-jupyter-21.png){fig-align="center" .r-stretch}
 
-- Zur Anmeldung müssen Sie den Benutzername und das Passwort eingeben. 
-- Beim Hub unter 
-  [www.jupyterhub.ihs.uni-stuttgart.de](https://www.jupyterhub.ihs.uni-stuttgart.de){target="_blank"}
-  muss der Benutzer erst angelegt werden.
-- Der Hub unter [hub.bwjupyter.de](https://hub.bwjupyter.de){target="_blank"} wird vom 
-  KIT betrieben; dort können Sie sich mit Ihrem *st123456* Account anmelden. 
+- Der Hub wird vom KIT betrieben; dort können Sie sich mit Ihrem 
+  *st123456* Account anmelden. 
+- Zur Anmeldung müssen Sie den Benutzername und das Passwort eingeben.
 
 ## Jupyterhub
-### Startseite unter www.ihs.uni-stuttgart.de
-
-![](assets/einf-jupyter-22.png){fig-align="center" .r-stretch}
-
-- *New* öffnet ein Popup zum Starten eines Notebooks (*Python 3*) oder eines
-  Terminals
-- Anzeige der gespeicherten und laufenden Notebooks sowie alle Dateien im 
-  *home* Verzeichnis
-- Die Daten auf dem Hub werden **nicht** gesichert. Falls notwendig und 
-  gewünscht legen Sie sich privat eine Kopie an.
-
-## Jupyterhub
-### Startseite unter hub.bwjupyter.de
+### Startseite
 
 ![](assets/einf-jupyter-22.5.png){fig-align="center" .r-stretch}
 
--  Das korrekte Abbild bekommen Sie 
-   [hier](https://hub.bwjupyter.de/services/profilemanagement/add?profile=787ea89e-24c2-44c0-8434-43f3bf84f03c){target="_blank"}.
+- Das korrekte Abbild bekommen Sie über den Link in der Kursseite.
 - Nachdem das Profil geladen ist, sehen Sie die Startseite.
 - Durch einen Klick auf *Python 3* in der Rubrik *Notebook* können Sie ein 
   neues Notebook starten.
@@ -288,7 +263,8 @@ Zum Beispiel zur Einheit *Finite-Volumen-Methode und Randbedingungen*
 ![](assets/einf-jupyter-23.png){fig-align="center" .r-stretch}
 
 - Neben manuellem Speichern wird regelmäßig automatisch gespeichert
-- Durch Anklicken des Namens (*Untitled1*), können Sie diesen ändern.
+- Durch einen Rechtsklick auf den Tab oder den Dateinamen (*Untitled1.ipynb*), 
+  kann dieser geändert werden.
 - Zellen werden mit Quelltext befüllt und durch `Shift` + `Enter` ausgeführt.
 
 ## Jupyterhub
@@ -340,16 +316,8 @@ plt.plot(xx,np.sqrt(xx), 'k-')
 
 2. Repository mit *git* klonen.
    
-  [hub.bwjupyter.de](https://hub.bwjupyter.de){target="_blank"}
-
    ```bash
    cd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git
-   ```
-   
-  [www.jupyterhub.ihs.uni-stuttgart.de](https://www.jupyterhub.ihs.uni-stuttgart.de){target="_blank"}
-
-   ```bash
-   git clone https://github.com/atismer/nso2-notebooks.git
    ```
 
 ## Jupyterhub
