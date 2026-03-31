@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.43">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.36">
 
-  <title>Numerische Strömungsmechanik mit Optimierungsanwendung 2</title>
+  <meta name="author" content="Dr.-Ing. Alexander Tismer">
+  <title>Numerische Strömungsmechanik  mit Optimierungsanwendung 2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,8 +32,9 @@
       vertical-align: middle;
     }
     /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -40,7 +45,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -113,7 +118,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-3dd64c5fdf9ddbf30f7aab5d7e7a1c3f.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-ba8a7a58da0b1fbe002cff7bb0c7bff7.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -205,32 +210,27 @@
       margin-right: 0; 
     }
   </style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
   
   <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-  <script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
-  <style>
-  #title-slide .title {
-    color: #ffffff;
-    text-align: right;
-  }
-  </style>
-  <style>
-  #title-slide .subtitle {
-    color: #ffffff;
-    text-align: right;
-  }
-  </style>
+  <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="assets/titel_la.png" class="quarto-title-block center">
-  <h1 class="title">Numerische Strömungsmechanik mit Optimierungsanwendung 2</h1>
-  <p class="subtitle">Dr.-Ing. Alexander Tismer<br>Licensed under CC BY-SA 4.0</p>
+<section id="title-slide" data-background-image="assets/titel-ihs-logo.png, assets/titel_la-circ.png, assets/titel-col.png" data-background-position="5% 10%, 90% center, 50% 70%" data-background-size="10%, 30%, 100% 60%" class="quarto-title-block center">
+  <h1 class="title">Numerische Strömungsmechanik<br> mit Optimierungsanwendung 2</h1>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.-Ing. Alexander Tismer 
+</div>
+        <p class="quarto-title-affiliation">
+            Universität Stuttgart, Institut für Strömungsmechanik und Hydraulische Strömungsmaschinen
+          </p>
+    </div>
 </div>
 
 </section>
@@ -241,7 +241,6 @@
 </section>
 <section id="organisation" class="slide level2">
 <h2>Organisation</h2>
-<h3 id="kontakt-und-prüfung">Kontakt und Prüfung</h3>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ul>
@@ -266,9 +265,8 @@
 </div>
 </div></div>
 </section>
-<section id="organisation-1" class="slide level2">
-<h2>Organisation</h2>
-<h3 id="konzept">Konzept</h3>
+<section id="konzept" class="slide level2">
+<h2>Konzept</h2>
 <ul>
 <li>Konzept der Vorlesung: <a href="https://www.fliptheclassroom.de" data-preview-link="true">Flip-the-classroom</a> <span class="citation" data-cites="www_fliptheclassroom"><a href="#/referenzen" role="doc-biblioref" onclick="">[1]</a></span></li>
 <li>Erarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause
@@ -283,8 +281,8 @@
 <li>Alle Materialien zum erfolgreichen Bestehen der BSL sind online</li>
 </ul>
 </section>
-<section id="organisation-2" class="slide level2">
-<h2>Organisation</h2>
+<section id="konzept-1" class="slide level2">
+<h2>Konzept</h2>
 <h3 id="vorgehensmöglichkeiten">Vorgehensmöglichkeiten</h3>
 <p>Zu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf unterschiedlichen Wegen erarbeiten:</p>
 <p><strong>Vorlesungs-basiert</strong></p>
@@ -300,9 +298,8 @@
 <li>Weiter bei (2.)</li>
 </ol>
 </section>
-<section id="inhalt" class="slide level2">
-<h2>Inhalt</h2>
-<h3 id="zeitplan">Zeitplan</h3>
+<section id="zeitplan" class="slide level2">
+<h2>Zeitplan</h2>
 <div class="columns">
 <div class="column">
 <table class="caption-top">
@@ -345,6 +342,10 @@
 </table>
 </div><div class="column">
 <table class="caption-top">
+<colgroup>
+<col style="width: 92%">
+<col style="width: 7%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: right;">Übung</th>
@@ -373,9 +374,8 @@
 </div></div>
 <p>6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten</p>
 </section>
-<section id="inhalt-1" class="slide level2">
+<section id="inhalt" class="slide level2">
 <h2>Inhalt</h2>
-<h3 id="überblick">Überblick</h3>
 <div class="columns">
 <div class="column">
 <div class="quarto-figure quarto-figure-left">
@@ -396,9 +396,8 @@
 </ul>
 </div></div>
 </section>
-<section id="inhalt-2" class="slide level2">
+<section id="inhalt-1" class="slide level2">
 <h2>Inhalt</h2>
-<h3 id="überblick-1">Überblick</h3>
 <div class="columns">
 <div class="column">
 <p><img data-src="assets/einf-loeser.png"></p>
@@ -419,9 +418,8 @@
 </ul>
 </div></div>
 </section>
-<section id="inhalt-3" class="slide level2">
+<section id="inhalt-2" class="slide level2">
 <h2>Inhalt</h2>
-<h3 id="überblick-2">Überblick</h3>
 <div class="columns">
 <div class="column">
 <p><img data-src="assets/einf-simple.png"></p>
@@ -438,9 +436,8 @@
 </ul>
 </div></div>
 </section>
-<section id="inhalt-4" class="slide level2">
+<section id="inhalt-3" class="slide level2">
 <h2>Inhalt</h2>
-<h3 id="überblick-3">Überblick</h3>
 <div class="columns">
 <div class="column">
 <p><img data-src="assets/einf-optimierung.png"></p>
@@ -456,9 +453,8 @@
 </ul>
 </div></div>
 </section>
-<section id="inhalt-5" class="slide level2">
+<section id="inhalt-4" class="slide level2">
 <h2>Inhalt</h2>
-<h3 id="überblick-4">Überblick</h3>
 <div class="columns">
 <div class="column">
 <p><img data-src="assets/einf-sensitivitaetsanalyse.png"></p>
@@ -502,7 +498,7 @@
 <h2>Conceptboard</h2>
 
 <img data-src="assets/einf-concept-17.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
-<li><a href="https://uni-stuttgart.conceptboard.com/board/gi5d-ookt-zigt-x3p5-a38i" target="_blank">Link</a> zum Board finden Sie auf der Kursseite</li>
+<li>Link zum Board finden Sie auf der Kursseite</li>
 <li>Durch einen Klick auf <em>Abschnitte</em> gelangen Sie zu den Unterlagen der jeweiligen Vorlesung</li>
 </ul>
 </section>
@@ -532,88 +528,74 @@
 <h3 id="anmeldung">Anmeldung</h3>
 
 <img data-src="assets/einf-jupyter-21.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
+<li>Der Hub wird vom KIT betrieben; dort können Sie sich mit Ihrem <em>st123456</em> Account anmelden.</li>
 <li>Zur Anmeldung müssen Sie den Benutzername und das Passwort eingeben.</li>
-<li>Beim Hub unter <a href="https://www.jupyterhub.ihs.uni-stuttgart.de" target="_blank">www.jupyterhub.ihs.uni-stuttgart.de</a> muss der Benutzer erst angelegt werden.</li>
-<li>Der Hub unter <a href="https://hub.bwjupyter.de" target="_blank">hub.bwjupyter.de</a> wird vom KIT betrieben; dort können Sie sich mit Ihrem <em>st123456</em> Account anmelden.</li>
 </ul>
 </section>
 <section id="jupyterhub-1" class="slide level2">
 <h2>Jupyterhub</h2>
-<h3 id="startseite-unter-www.ihs.uni-stuttgart.de">Startseite unter www.ihs.uni-stuttgart.de</h3>
-
-<img data-src="assets/einf-jupyter-22.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
-<li><em>New</em> öffnet ein Popup zum Starten eines Notebooks (<em>Python 3</em>) oder eines Terminals</li>
-<li>Anzeige der gespeicherten und laufenden Notebooks sowie alle Dateien im <em>home</em> Verzeichnis</li>
-<li>Die Daten auf dem Hub werden <strong>nicht</strong> gesichert. Falls notwendig und gewünscht legen Sie sich privat eine Kopie an.</li>
-</ul>
-</section>
-<section id="jupyterhub-2" class="slide level2">
-<h2>Jupyterhub</h2>
-<h3 id="startseite-unter-hub.bwjupyter.de">Startseite unter hub.bwjupyter.de</h3>
+<h3 id="startseite">Startseite</h3>
 
 <img data-src="assets/einf-jupyter-22.5.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
-<li>Das korrekte Abbild bekommen Sie <a href="https://hub.bwjupyter.de/services/profilemanagement/add?profile=787ea89e-24c2-44c0-8434-43f3bf84f03c" target="_blank">hier</a>.</li>
+<li>Das korrekte Abbild bekommen Sie über den Link in der Kursseite.</li>
 <li>Nachdem das Profil geladen ist, sehen Sie die Startseite.</li>
 <li>Durch einen Klick auf <em>Python 3</em> in der Rubrik <em>Notebook</em> können Sie ein neues Notebook starten.</li>
 <li>Ein Klick auf <em>Terminal</em> startet ein Terminal.</li>
 </ul>
 </section>
-<section id="jupyterhub-3" class="slide level2">
+<section id="jupyterhub-2" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="das-erste-notebook">Das erste Notebook</h3>
 
 <img data-src="assets/einf-jupyter-23.png" class="r-stretch quarto-figure quarto-figure-center"><ul>
 <li>Neben manuellem Speichern wird regelmäßig automatisch gespeichert</li>
-<li>Durch Anklicken des Namens (<em>Untitled1</em>), können Sie diesen ändern.</li>
+<li>Durch einen Rechtsklick auf den Tab oder den Dateinamen (<em>Untitled1.ipynb</em>), kann dieser geändert werden.</li>
 <li>Zellen werden mit Quelltext befüllt und durch <code>Shift</code> + <code>Enter</code> ausgeführt.</li>
 </ul>
 </section>
-<section id="jupyterhub-4" class="slide level2">
+<section id="jupyterhub-3" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="der-erste-code">Der erste Code</h3>
 <p>Kopieren Sie den folgenden Quelltext in die erste Zelle und führen Sie diese mit <code>Shift</code> + <code>Enter</code> aus:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib</span>
 <span id="cb1-2"><a></a><span class="op">%</span>matplotlib ipympl</span>
 <span id="cb1-3"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> pyplot</span>
-<span id="cb1-4"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Erstellen Sie ein eindimensionales Datenfeld durch</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>xx <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">20</span>,<span class="fl">0.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>xx <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">20</span>,<span class="fl">0.1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>und geben Sie den Inhalt durch</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="bu">print</span>(xx)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="bu">print</span>(xx)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>auf die Ausgabe aus.</p>
 </section>
-<section id="jupyterhub-5" class="slide level2">
+<section id="jupyterhub-4" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="die-erste-abbildung">Die erste Abbildung</h3>
 <p>Der folgende Quelltext erzeugt die gezeigte Abbildung:</p>
-<div id="055f3360" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> matplotlib</span>
+<div id="fd668fae" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> matplotlib</span>
 <span id="cb4-2"><a></a><span class="op">%</span>matplotlib ipympl</span>
 <span id="cb4-3"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb4-4"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb4-5"><a></a>xx <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">20</span>,<span class="fl">0.1</span>)</span>
 <span id="cb4-6"><a></a>plt.figure(<span class="dv">1</span>, figsize<span class="op">=</span>[<span class="dv">10</span>,<span class="dv">3</span>])</span>
-<span id="cb4-7"><a></a>plt.plot(xx,np.sqrt(xx), <span class="st">'k-'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-7"><a></a>plt.plot(xx,np.sqrt(xx), <span class="st">'k-'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"90013c19937740b496acdb936c3e46aa","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
+{"model_id":"db36f8f83802452896cbe14800ee6496","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
 </script>
 </div>
 </div>
 </section>
-<section id="jupyterhub-6" class="slide level2">
+<section id="jupyterhub-5" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="wie-bekomme-ich-die-notebooks-für-die-übung">Wie bekomme ich die Notebooks für die Übung?</h3>
 <ol type="1">
 <li><p>Starten Sie ein <em>Terminal</em> auf dem Hub.</p></li>
-<li><p>Repository mit <em>git</em> klonen.</p></li>
+<li><p>Repository mit <em>git</em> klonen.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a></a><span class="bu">cd</span> work <span class="kw">&amp;&amp;</span> <span class="fu">git</span> clone <span class="at">-b</span> move-to-kit https://github.com/atismer/nso2-notebooks.git</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ol>
-<p><a href="https://hub.bwjupyter.de" target="_blank">hub.bwjupyter.de</a></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a></a><span class="bu">cd</span> work <span class="kw">&amp;&amp;</span> <span class="fu">git</span> clone <span class="at">-b</span> move-to-kit https://github.com/atismer/nso2-notebooks.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="https://www.jupyterhub.ihs.uni-stuttgart.de" target="_blank">www.jupyterhub.ihs.uni-stuttgart.de</a></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a></a><span class="fu">git</span> clone https://github.com/atismer/nso2-notebooks.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="jupyterhub-7" class="slide level2">
+<section id="jupyterhub-6" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="wie-kann-ich-mir-helfen">Wie kann ich mir helfen?</h3>
 <div class="panel-tabset">
@@ -622,17 +604,17 @@
 <div id="tabset-1-1">
 <ul>
 <li><p>Für viele Python-Objekte erhalten Sie durch die Funktion <code>help</code> eine Ausgabe, z.B. für den Befehl <code>plot</code>:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="im">import</span> matplotlib</span>
-<span id="cb7-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb7-3"><a></a><span class="bu">help</span>(plt.plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="im">import</span> matplotlib</span>
+<span id="cb6-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb6-3"><a></a><span class="bu">help</span>(plt.plot)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p>Durch Drücken der Taste <em>Tabulator</em> erhalten Sie die Autovervollständigung.</p></li>
 </ul>
 </div>
 <div id="tabset-1-2">
-<div id="77af271f" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="im">import</span> matplotlib</span>
-<span id="cb8-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb8-3"><a></a><span class="bu">help</span>(plt.plot)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="eee885ea" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="im">import</span> matplotlib</span>
+<span id="cb7-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb7-3"><a></a><span class="bu">help</span>(plt.plot)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Help on function plot in module matplotlib.pyplot:
 
@@ -932,7 +914,7 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
 </div>
 </div>
 </section>
-<section id="jupyterhub-8" class="slide level2">
+<section id="jupyterhub-7" class="slide level2">
 <h2>Jupyterhub</h2>
 <h3 id="wie-kann-ich-mir-helfen-1">Wie kann ich mir helfen?</h3>
 <div class="panel-tabset">
@@ -940,69 +922,69 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
 <div class="tab-content">
 <div id="tabset-2-1">
 <p>Die Ausführung von</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>plt.plot(xx,np.sqrt(xx), <span class="st">'kl'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>plt.plot(xx,np.sqrt(xx), <span class="st">'kl'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>erzeugt einen Fehler.</p>
 <p><strong>Wichtig</strong>: Ruhe bewahren!</p>
 <p>Versuchen Sie sich selber zu helfen. Je öfter Sie den Fehler suchen und versuchen diesen zu beheben, desto besser werden Sie darin. In der Regel steht der Fehler ganz unten. Der obere Teil enthält meist ein <em>Backtrace</em> und listet alle bis zum Fehler aufgerufenen Funktionen.</p>
 </div>
 <div id="tabset-2-2">
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a><span class="op">---------------------------------------------------------------------------</span></span>
-<span id="cb11-2"><a></a><span class="pp">ValueError</span>                                Traceback (most recent call last)</span>
-<span id="cb11-3"><a></a>Cell In[<span class="dv">1</span>], line <span class="dv">7</span></span>
-<span id="cb11-4"><a></a>      <span class="dv">5</span> xx <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">20</span>,<span class="fl">0.1</span>)                                                        </span>
-<span id="cb11-5"><a></a>      <span class="dv">6</span> plt.figure(<span class="dv">1</span>, figsize<span class="op">=</span>[<span class="dv">10</span>,<span class="dv">3</span>])                                                   </span>
-<span id="cb11-6"><a></a><span class="op">----&gt;</span> <span class="dv">7</span> plt.plot(xx,np.sqrt(xx), <span class="st">'kl'</span>)  </span>
-<span id="cb11-7"><a></a></span>
-<span id="cb11-8"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>pyplot.py:<span class="dv">3827</span>, <span class="kw">in</span> plot(scalex, scaley, data, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
-<span id="cb11-9"><a></a>   <span class="dv">3819</span> <span class="op">@</span>_copy_docstring_and_deprecators(Axes.plot)</span>
-<span id="cb11-10"><a></a>   <span class="dv">3820</span> <span class="kw">def</span> plot(</span>
-<span id="cb11-11"><a></a>   <span class="dv">3821</span>     <span class="op">*</span>args: <span class="bu">float</span> <span class="op">|</span> ArrayLike <span class="op">|</span> <span class="bu">str</span>,</span>
-<span id="cb11-12"><a></a>   (...)   <span class="dv">3825</span>     <span class="op">**</span>kwargs,</span>
-<span id="cb11-13"><a></a>   <span class="dv">3826</span> ) <span class="op">-&gt;</span> <span class="bu">list</span>[Line2D]:</span>
-<span id="cb11-14"><a></a><span class="op">-&gt;</span> <span class="dv">3827</span>     <span class="cf">return</span> gca().plot(</span>
-<span id="cb11-15"><a></a>   <span class="dv">3828</span>         <span class="op">*</span>args,</span>
-<span id="cb11-16"><a></a>   <span class="dv">3829</span>         scalex<span class="op">=</span>scalex,</span>
-<span id="cb11-17"><a></a>   <span class="dv">3830</span>         scaley<span class="op">=</span>scaley,</span>
-<span id="cb11-18"><a></a>   <span class="dv">3831</span>         <span class="op">**</span>({<span class="st">"data"</span>: data} <span class="cf">if</span> data <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> {}),</span>
-<span id="cb11-19"><a></a>   <span class="dv">3832</span>         <span class="op">**</span>kwargs,</span>
-<span id="cb11-20"><a></a>   <span class="dv">3833</span>     )</span>
-<span id="cb11-21"><a></a></span>
-<span id="cb11-22"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_axes.py:<span class="dv">1777</span>, <span class="kw">in</span> Axes.plot(<span class="va">self</span>, scalex, scaley, data, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
-<span id="cb11-23"><a></a>   <span class="dv">1534</span> <span class="st">"""</span></span>
-<span id="cb11-24"><a></a><span class="st">   1535 Plot y versus x as lines and/or markers.</span></span>
-<span id="cb11-25"><a></a><span class="st">   1536 </span></span>
-<span id="cb11-26"><a></a><span class="st">   (...)   1774 (``'green'``) or hex strings (``'#008000'``).</span></span>
-<span id="cb11-27"><a></a><span class="st">   1775 """</span></span>
-<span id="cb11-28"><a></a>   <span class="dv">1776</span> kwargs <span class="op">=</span> cbook.normalize_kwargs(kwargs, mlines.Line2D)</span>
-<span id="cb11-29"><a></a><span class="op">-&gt;</span> <span class="dv">1777</span> lines <span class="op">=</span> [<span class="op">*</span><span class="va">self</span>._get_lines(<span class="va">self</span>, <span class="op">*</span>args, data<span class="op">=</span>data, <span class="op">**</span>kwargs)]</span>
-<span id="cb11-30"><a></a>   <span class="dv">1778</span> <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
-<span id="cb11-31"><a></a>   <span class="dv">1779</span>     <span class="va">self</span>.add_line(line)</span>
-<span id="cb11-32"><a></a></span>
-<span id="cb11-33"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">297</span>, <span class="kw">in</span> _process_plot_var_args.<span class="fu">__call__</span>(<span class="va">self</span>, axes, data, return_kwargs, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
-<span id="cb11-34"><a></a>    <span class="dv">295</span>     this <span class="op">+=</span> args[<span class="dv">0</span>],</span>
-<span id="cb11-35"><a></a>    <span class="dv">296</span>     args <span class="op">=</span> args[<span class="dv">1</span>:]</span>
-<span id="cb11-36"><a></a><span class="op">--&gt;</span> <span class="dv">297</span> <span class="cf">yield</span> <span class="cf">from</span> <span class="va">self</span>._plot_args(</span>
-<span id="cb11-37"><a></a>    <span class="dv">298</span>     axes, this, kwargs, ambiguous_fmt_datakey<span class="op">=</span>ambiguous_fmt_datakey,</span>
-<span id="cb11-38"><a></a>    <span class="dv">299</span>     return_kwargs<span class="op">=</span>return_kwargs</span>
-<span id="cb11-39"><a></a>    <span class="dv">300</span> )</span>
-<span id="cb11-40"><a></a></span>
-<span id="cb11-41"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">444</span>, <span class="kw">in</span> _process_plot_var_args._plot_args(<span class="va">self</span>, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)</span>
-<span id="cb11-42"><a></a>    <span class="dv">441</span> <span class="cf">if</span> <span class="bu">len</span>(tup) <span class="op">&gt;</span> <span class="dv">1</span> <span class="kw">and</span> <span class="bu">isinstance</span>(tup[<span class="op">-</span><span class="dv">1</span>], <span class="bu">str</span>):</span>
-<span id="cb11-43"><a></a>    <span class="dv">442</span>     <span class="co"># xy is tup with fmt stripped (could still be (y,) only)</span></span>
-<span id="cb11-44"><a></a>    <span class="dv">443</span>     <span class="op">*</span>xy, fmt <span class="op">=</span> tup</span>
-<span id="cb11-45"><a></a><span class="op">--&gt;</span> <span class="dv">444</span>     linestyle, marker, color <span class="op">=</span> _process_plot_format(</span>
-<span id="cb11-46"><a></a>    <span class="dv">445</span>         fmt, ambiguous_fmt_datakey<span class="op">=</span>ambiguous_fmt_datakey)</span>
-<span id="cb11-47"><a></a>    <span class="dv">446</span> <span class="cf">elif</span> <span class="bu">len</span>(tup) <span class="op">==</span> <span class="dv">3</span>:</span>
-<span id="cb11-48"><a></a>    <span class="dv">447</span>     <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">'third arg must be a format string'</span>)</span>
-<span id="cb11-49"><a></a></span>
-<span id="cb11-50"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">192</span>, <span class="kw">in</span> _process_plot_format(fmt, ambiguous_fmt_datakey)</span>
-<span id="cb11-51"><a></a>    <span class="dv">190</span>         i <span class="op">+=</span> <span class="bu">len</span>(cn_color[<span class="dv">0</span>])</span>
-<span id="cb11-52"><a></a>    <span class="dv">191</span>     <span class="cf">else</span>:</span>
-<span id="cb11-53"><a></a><span class="op">--&gt;</span> <span class="dv">192</span>         <span class="cf">raise</span> <span class="pp">ValueError</span>(errfmt.<span class="bu">format</span>(fmt, <span class="ss">f"unrecognized character </span><span class="sc">{</span>c<span class="sc">!r}</span><span class="ss">"</span>))</span>
-<span id="cb11-54"><a></a>    <span class="dv">194</span> <span class="cf">if</span> linestyle <span class="kw">is</span> <span class="va">None</span> <span class="kw">and</span> marker <span class="kw">is</span> <span class="va">None</span>:</span>
-<span id="cb11-55"><a></a>    <span class="dv">195</span>     linestyle <span class="op">=</span> mpl.rcParams[<span class="st">'lines.linestyle'</span>]</span>
-<span id="cb11-56"><a></a></span>
-<span id="cb11-57"><a></a><span class="pp">ValueError</span>: <span class="st">'kl'</span> <span class="kw">is</span> <span class="kw">not</span> a valid <span class="bu">format</span> string (unrecognized character <span class="st">'l'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a><span class="op">---------------------------------------------------------------------------</span></span>
+<span id="cb10-2"><a></a><span class="pp">ValueError</span>                                Traceback (most recent call last)</span>
+<span id="cb10-3"><a></a>Cell In[<span class="dv">1</span>], line <span class="dv">7</span></span>
+<span id="cb10-4"><a></a>      <span class="dv">5</span> xx <span class="op">=</span> np.arange(<span class="dv">0</span>,<span class="dv">20</span>,<span class="fl">0.1</span>)                                                        </span>
+<span id="cb10-5"><a></a>      <span class="dv">6</span> plt.figure(<span class="dv">1</span>, figsize<span class="op">=</span>[<span class="dv">10</span>,<span class="dv">3</span>])                                                   </span>
+<span id="cb10-6"><a></a><span class="op">----&gt;</span> <span class="dv">7</span> plt.plot(xx,np.sqrt(xx), <span class="st">'kl'</span>)  </span>
+<span id="cb10-7"><a></a></span>
+<span id="cb10-8"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>pyplot.py:<span class="dv">3827</span>, <span class="kw">in</span> plot(scalex, scaley, data, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
+<span id="cb10-9"><a></a>   <span class="dv">3819</span> <span class="op">@</span>_copy_docstring_and_deprecators(Axes.plot)</span>
+<span id="cb10-10"><a></a>   <span class="dv">3820</span> <span class="kw">def</span> plot(</span>
+<span id="cb10-11"><a></a>   <span class="dv">3821</span>     <span class="op">*</span>args: <span class="bu">float</span> <span class="op">|</span> ArrayLike <span class="op">|</span> <span class="bu">str</span>,</span>
+<span id="cb10-12"><a></a>   (...)   <span class="dv">3825</span>     <span class="op">**</span>kwargs,</span>
+<span id="cb10-13"><a></a>   <span class="dv">3826</span> ) <span class="op">-&gt;</span> <span class="bu">list</span>[Line2D]:</span>
+<span id="cb10-14"><a></a><span class="op">-&gt;</span> <span class="dv">3827</span>     <span class="cf">return</span> gca().plot(</span>
+<span id="cb10-15"><a></a>   <span class="dv">3828</span>         <span class="op">*</span>args,</span>
+<span id="cb10-16"><a></a>   <span class="dv">3829</span>         scalex<span class="op">=</span>scalex,</span>
+<span id="cb10-17"><a></a>   <span class="dv">3830</span>         scaley<span class="op">=</span>scaley,</span>
+<span id="cb10-18"><a></a>   <span class="dv">3831</span>         <span class="op">**</span>({<span class="st">"data"</span>: data} <span class="cf">if</span> data <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="cf">else</span> {}),</span>
+<span id="cb10-19"><a></a>   <span class="dv">3832</span>         <span class="op">**</span>kwargs,</span>
+<span id="cb10-20"><a></a>   <span class="dv">3833</span>     )</span>
+<span id="cb10-21"><a></a></span>
+<span id="cb10-22"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_axes.py:<span class="dv">1777</span>, <span class="kw">in</span> Axes.plot(<span class="va">self</span>, scalex, scaley, data, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
+<span id="cb10-23"><a></a>   <span class="dv">1534</span> <span class="st">"""</span></span>
+<span id="cb10-24"><a></a><span class="st">   1535 Plot y versus x as lines and/or markers.</span></span>
+<span id="cb10-25"><a></a><span class="st">   1536 </span></span>
+<span id="cb10-26"><a></a><span class="st">   (...)   1774 (``'green'``) or hex strings (``'#008000'``).</span></span>
+<span id="cb10-27"><a></a><span class="st">   1775 """</span></span>
+<span id="cb10-28"><a></a>   <span class="dv">1776</span> kwargs <span class="op">=</span> cbook.normalize_kwargs(kwargs, mlines.Line2D)</span>
+<span id="cb10-29"><a></a><span class="op">-&gt;</span> <span class="dv">1777</span> lines <span class="op">=</span> [<span class="op">*</span><span class="va">self</span>._get_lines(<span class="va">self</span>, <span class="op">*</span>args, data<span class="op">=</span>data, <span class="op">**</span>kwargs)]</span>
+<span id="cb10-30"><a></a>   <span class="dv">1778</span> <span class="cf">for</span> line <span class="kw">in</span> lines:</span>
+<span id="cb10-31"><a></a>   <span class="dv">1779</span>     <span class="va">self</span>.add_line(line)</span>
+<span id="cb10-32"><a></a></span>
+<span id="cb10-33"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">297</span>, <span class="kw">in</span> _process_plot_var_args.<span class="fu">__call__</span>(<span class="va">self</span>, axes, data, return_kwargs, <span class="op">*</span>args, <span class="op">**</span>kwargs)</span>
+<span id="cb10-34"><a></a>    <span class="dv">295</span>     this <span class="op">+=</span> args[<span class="dv">0</span>],</span>
+<span id="cb10-35"><a></a>    <span class="dv">296</span>     args <span class="op">=</span> args[<span class="dv">1</span>:]</span>
+<span id="cb10-36"><a></a><span class="op">--&gt;</span> <span class="dv">297</span> <span class="cf">yield</span> <span class="cf">from</span> <span class="va">self</span>._plot_args(</span>
+<span id="cb10-37"><a></a>    <span class="dv">298</span>     axes, this, kwargs, ambiguous_fmt_datakey<span class="op">=</span>ambiguous_fmt_datakey,</span>
+<span id="cb10-38"><a></a>    <span class="dv">299</span>     return_kwargs<span class="op">=</span>return_kwargs</span>
+<span id="cb10-39"><a></a>    <span class="dv">300</span> )</span>
+<span id="cb10-40"><a></a></span>
+<span id="cb10-41"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">444</span>, <span class="kw">in</span> _process_plot_var_args._plot_args(<span class="va">self</span>, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)</span>
+<span id="cb10-42"><a></a>    <span class="dv">441</span> <span class="cf">if</span> <span class="bu">len</span>(tup) <span class="op">&gt;</span> <span class="dv">1</span> <span class="kw">and</span> <span class="bu">isinstance</span>(tup[<span class="op">-</span><span class="dv">1</span>], <span class="bu">str</span>):</span>
+<span id="cb10-43"><a></a>    <span class="dv">442</span>     <span class="co"># xy is tup with fmt stripped (could still be (y,) only)</span></span>
+<span id="cb10-44"><a></a>    <span class="dv">443</span>     <span class="op">*</span>xy, fmt <span class="op">=</span> tup</span>
+<span id="cb10-45"><a></a><span class="op">--&gt;</span> <span class="dv">444</span>     linestyle, marker, color <span class="op">=</span> _process_plot_format(</span>
+<span id="cb10-46"><a></a>    <span class="dv">445</span>         fmt, ambiguous_fmt_datakey<span class="op">=</span>ambiguous_fmt_datakey)</span>
+<span id="cb10-47"><a></a>    <span class="dv">446</span> <span class="cf">elif</span> <span class="bu">len</span>(tup) <span class="op">==</span> <span class="dv">3</span>:</span>
+<span id="cb10-48"><a></a>    <span class="dv">447</span>     <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">'third arg must be a format string'</span>)</span>
+<span id="cb10-49"><a></a></span>
+<span id="cb10-50"><a></a>File <span class="op">/</span>opt<span class="op">/</span>conda<span class="op">/</span>lib<span class="op">/</span>python3<span class="fl">.12</span><span class="op">/</span>site<span class="op">-</span>packages<span class="op">/</span>matplotlib<span class="op">/</span>axes<span class="op">/</span>_base.py:<span class="dv">192</span>, <span class="kw">in</span> _process_plot_format(fmt, ambiguous_fmt_datakey)</span>
+<span id="cb10-51"><a></a>    <span class="dv">190</span>         i <span class="op">+=</span> <span class="bu">len</span>(cn_color[<span class="dv">0</span>])</span>
+<span id="cb10-52"><a></a>    <span class="dv">191</span>     <span class="cf">else</span>:</span>
+<span id="cb10-53"><a></a><span class="op">--&gt;</span> <span class="dv">192</span>         <span class="cf">raise</span> <span class="pp">ValueError</span>(errfmt.<span class="bu">format</span>(fmt, <span class="ss">f"unrecognized character </span><span class="sc">{</span>c<span class="sc">!r}</span><span class="ss">"</span>))</span>
+<span id="cb10-54"><a></a>    <span class="dv">194</span> <span class="cf">if</span> linestyle <span class="kw">is</span> <span class="va">None</span> <span class="kw">and</span> marker <span class="kw">is</span> <span class="va">None</span>:</span>
+<span id="cb10-55"><a></a>    <span class="dv">195</span>     linestyle <span class="op">=</span> mpl.rcParams[<span class="st">'lines.linestyle'</span>]</span>
+<span id="cb10-56"><a></a></span>
+<span id="cb10-57"><a></a><span class="pp">ValueError</span>: <span class="st">'kl'</span> <span class="kw">is</span> <span class="kw">not</span> a valid <span class="bu">format</span> string (unrecognized character <span class="st">'l'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -1020,7 +1002,7 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
 <div class="csl-left-margin">[3] </div><div class="csl-right-inline"><span>“<span>P</span>roject <span>J</span>upyter — jupyter.org.”</span> <a href="https://jupyter.org/" class="uri">https://jupyter.org/</a>.</div>
 </div>
 <div id="ref-Moukalled_2016" class="csl-entry" role="listitem">
-<div class="csl-left-margin">[4] </div><div class="csl-right-inline">F. Moukalled, L. Mangani, and M. Darwish, <em>The finite volume method in computational fluid dynamics: An advanced introduction with OpenFOAM<span></span> and matlab</em>. Springer International Publishing, 2016. doi: <a href="https://doi.org/10.1007/978-3-319-16874-6">10.1007/978-3-319-16874-6</a>.</div>
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">F. Moukalled, L. Mangani, and M. Darwish, <em>The finite volume method in computational fluid dynamics: An advanced introduction with OpenFOAM<span>®</span> and matlab</em>. Springer International Publishing, 2016. doi: <a href="https://doi.org/10.1007/978-3-319-16874-6">10.1007/978-3-319-16874-6</a>.</div>
 </div>
 <div id="ref-Weicker_2015" class="csl-entry" role="listitem">
 <div class="csl-left-margin">[5] </div><div class="csl-right-inline">K. Weicker, <em>Evolutionäre algorithmen</em>. Springer Fachmedien Wiesbaden, 2015. doi: <a href="https://doi.org/10.1007/978-3-658-09958-9">10.1007/978-3-658-09958-9</a>.</div>
@@ -1037,7 +1019,7 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="assets/ihs-logo.png" class="slide-logo"></p>
+<p><img src="assets/sm-logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Numerische Strömungsmechanik mit Optimierungsanwendung 2</p>
 </div>
@@ -1071,7 +1053,7 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1092,7 +1074,7 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -1217,15 +1199,15 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1720,
 
-        height: 700,
+        height: 970,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1252,193 +1234,176 @@ plot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = T
       });
     </script>
     <script type="application/vnd.jupyter.widget-state+json">
-    {"state":{"2be55fc0a99c4167a432600e056aab8d":{"model_module":"@jupyter-widgets/base","model_module_version":"2.0.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"2.0.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"2.0.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border_bottom":null,"border_left":null,"border_right":null,"border_top":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"7fc38af2884b4349b5d4a2b38c7b5bab":{"model_module":"@jupyter-widgets/base","model_module_version":"2.0.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"2.0.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"2.0.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border_bottom":null,"border_left":null,"border_right":null,"border_top":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"90013c19937740b496acdb936c3e46aa":{"model_module":"jupyter-matplotlib","model_module_version":"^0.11","model_name":"MPLCanvasModel","state":{"_cursor":"pointer","_data_url":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAEgCAYAAAB7DRowAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjEsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvc2/+5QAAAAlwSFlzAAAOxAAADsQBlSsOGwAANV1JREFUeJzt3Xl4VPWh//HPZCUTSMjCLgQCkkAIJMSAQFhUkAgC5cFbsUBbtVdbq7W1uPy0ityK13ppq+0tttpaVKxgRcCSAgKyGpYACUlYA0LYFbISsme+vz+8TB2zADXMmWTer+eZJ3LO98zzmfMc4vnwPeeMzRhjBAAAAABAK+djdQAAAAAAANyBAgwAAAAA8AoUYAAAAACAV6AAAwAAAAC8AgUYAAAAAOAVKMAAAAAAAK9AAQYAAAAAeAUKMAAAAADAK1CAAQAAAABegQIMAAAAAPAKFGAAAAAAgFegAAMAAAAAvAIFGAAAAADgFSjAAAAAAACvQAEGAAAAAHgFCjAAAAAAwCtQgAEAAAAAXoECDAAAAADwChRgAAAAAIBXoAADAAAAALwCBRgAAAAA4BUowAAAAAAAr0ABBgAAAAB4BQowAAAAAMArUIABAAAAAF6BAgwAAAAA8AoUYAAAAACAV6AAAwAAAAC8AgUYAAAAAOAVKMAAAAAAAK9AAQYAAAAAeAUKMAAAAADAK1CAAQAAAABewc/qALh+HA6HiouL1aZNG9lsNqvjAAAAAF7NGKPKykq1b99ePj7MRVqBAtyKFRcXKyIiwuoYAAAAAL6ioKBA4eHhVsfwShTgVqxNmzaSvvwLFhQUZHEaAAAAwLtVVFQoIiLCeZ4O96MAt2KXL3sOCgqiAAMAAAAegtsTrcOF5wAAAAAAr0ABBgAAAAB4BQowAAAAAMArUIABAAAAAF6BAgwAAAAA8Ao8BRoAAABAq+RwOHTy5EkdPnxYhw4d0g9+8AO+gsjLUYABAAAAtGhFRUU6dOiQs+he/pmXl6fKykrnuDFjxmjAgAEWJoXVKMAAAAAAPF5VVZWOHj3aYNG9cOFCo9t17txZffv2VUxMjAIDA92YGJ6IAgwAAADAIzgcDp0+fbpewT18+LCOHz8uh8PR4HbBwcHq27evs+he/nnjjTcqNDTUzZ8CnowCDAAAAMCtysrKdPjwYR08eFCHDh1y/szLy1N5eXmD2/j4+Kh3794uBffyz65du8pms7n5U6AlogADAAAAaHaXZ3MPHjxYr+ieOnWq0e06duxYr+D27dtXvXv3VkBAgBs/AVojCjAAAACAf1t5eXmDs7mHDh1qdDY3ICBAN954o2JiYhQbG6uYmBjnq3379u79APAqFGAAAAAATTLG6PTp0y4F9/LPEydONLpdx44dnQX3qz+joqLk50cVgftx1AEAAACQJFVUVDgfPPXVonv48GGVlZU1uI2/v7/69OnjLLdfndENCwtz8ycAmkYBBgAAALyIMUZnz56tN5N78OBBnThxQsaYBreLjIxscDa3V69ezOaixeBIBQAAAFqhyspK5eXlNXhv7sWLFxvcxs/PT717965XdGNiYhQREeHmTwA0PwowAAAA0IIVFRXpwIEDLq+DBw/q2LFjjc7mhoeHu1yufPlndHS0/P393fwJAPehAAMAAAAezhijM2fO1Cu6Bw4c0Oeff97gNr6+voqOjnYpuZf/OzIy0s2fAPAMFGAAAADAQ9TW1uqzzz5rcEa3scuWg4KCFBsbq379+rm8+vTpw/fmAl9DAQYAAADc7PJ353696Obl5am6urrBbSIiIlwK7uXS26NHD/n4+Lj5EwAtEwUYAAAAuE4KCwsbvGw5Pz+/0ftzu3fvXm82t1+/furQoYOb0wOtDwUYAAAA+AaMMTp16pTzUuWvFt0vvviiwW18fX3Vp0+feiU3NjZWbdu2dfMnALwHBRgAAAC4CnV1dTp27Jj27dun/fv3u9yfW1ZW1uA2dru9wftze/fuzf25gAUowC3I1KlTtXz5cq1du1Zjx461Og4AAECrdPlBVPv373eW3X379ungwYOqqqpqcJuv3597+dW9e3fuzwU8CAW4hXj77bdVXl5udQwAAIBWo6amRkePHnUpuvv379ehQ4caLbrdunVTXFyc+vXrp/79+zuLLl8rBLQMFOAW4NSpU/rFL36hrVu3Kioqyuo4AAAALUpNTY3y8vKcBfdy2T106JBqamoa3KZ79+7q37+/4uLinD/79eun0NBQN6cH0JwowB7OGKP77rtPv/jFL9SjR48mx9bU1Ki2ttb554qKiusdDwAAwGNUV1fr8OHD9Yru4cOHXc6RvioqKsql6F6e1Q0JCXFzegDuQAH2cK+99pqMMXrggQeuOHbevHmaO3euG1IBAABYp6qqSocPH3a5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RoxQSkqKRowYoeTkZNntdmsCAwAAj0QBBgB4nMLCQqWnpzsLb0ZGhqqrq13G3HDDDRo5cqRSUlKUkpKiuLg4+fr6WpQYAAC0BBRgAICljDHKz893uZx53759LmNsNpvi4+OdZTclJUU9evSwKDEAAGipKMAAALeqq6tTTk6OS+E9ffq0y5jAwEANGTLEWXaHDRumsLAwixIDAIDWggIMALiuampqtGfPHm3evFmbNm3S1q1bVVJS4jImPDzcef9uSkqKkpKSeDozAABodhRgAECzqqqqUkZGhjZt2qTNmzfr008/1aVLl1zG9OzZ0+X+3djYWPn4+FiUGAAAeAsKMADgGykvL9f27dudM7zbt29XZWWly5i+fftq1KhRGj16tEaNGsX9uwAAwBIUYADANbl48aLS09O1adMmbdq0SRkZGaqpqXEZExcXp9GjR2v06NEaOXIk318OAAA8AgUYANCk4uJibdmyxXlJ8549e1RXV+dcb7PZlJiY6JzdHTlypCIjIy1MDAAA0DAKMADAxcWLF7VlyxZt2LBBGzZs0J49e2SMca739fXVkCFDnDO8I0aMUPv27a0LDAAAcJUowADg5crLy5Wenq5PPvlEGzZsUEZGhssMr7+/v4YOHeqc4R0+fLjatm1rYWIAAIB/DwUYALxMVVWVtm/f7iy827dvd7mH19fXV0OHDtWtt96qW265RcOHD1dwcLCFiQEAAJoHBRgAWrmamhplZGQ4C296errLU5ptNpsGDx7sLLwpKSkKCQmxMDEAAMD1QQEGgFamtrZWmZmZ2rBhgz755BNt3bq13vfwxsfHOwvvqFGjFBYWZlFaAAAA96EAA0ALZ4zR4cOHtW7dOq1bt04bNmxQSUmJy5jY2Fhn4R09erQ6dOhgUVoAAADrUIABoAX64osvtH79eq1du1br1q3TyZMnXdb37t3bWXjHjBnD9/ACAACIAgwALcKlS5e0ZcsWrVu3TmvXrlV2drbL+sjISI0dO9b5ioqKsigpAACA56IAA4AHqqur0+7du50zvOnp6aqurnaub9OmjUaNGqVx48Zp7NixGjhwoHx8fCxMDAAA4PkowADgAYwxOnLkiHOGd8OGDSouLnaut9lsSk5O1tixYzVu3DgNGzZMbdq0sS4wAABAC0QBBgCLFBYWat26dfr444+1du1anThxwmV97969nTO8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AHD9UYCBVsoYo82bN+v111/XBx98oOrqaklSp06dNGvWLN177718dREAAAC8CgUYaGUKCgr09ttv6/XXX9fBgwclSTabTXfccYceeOABTZw4Uf7+/hanBAAAANyPAgy0AsYYbd26VX/605/0wQcfqKqqSpLUpUsX3X///frBD36gqKgoi1MCAAAA1qIAAy1YaWmpFi5cqD/+8Y/Oe3ttNptSU1P1wAMP6M4772S2FwAAAPg/FGCgBTpw4ID+8Ic/6K233lJZWZkkqXPnzrr//vt1//33q1evXhYnBAAAADwPBRhoIerq6pSWlqbf//73WrdunXP5mDFj9OMf/1hTpkxhthcAAABoAgUY8HCFhYX6y1/+ogULFuj48eOSJLvdrpkzZ+rhhx9WfHy8tQEBAACAFoICDHionJwc/e53v9O7776riooKSVJ0dLR+/OMf695771VYWJjFCQEAAICWhQIMeBBjjNatW6f58+fr448/di6//fbb9cgjj+iOO+6Qr6+vhQkBAACAlosCDHiA6upqLVmyRPPnz1d2drakLy9zvu+++/Twww8rJibG4oQAAABAy0cBBixUUlKiN954Q6+88opOnz4t6cunOf/kJz/Rgw8+qPDwcIsTAgAAAK0HBRiwwMmTJ/Xqq6/q9ddf18WLFyVJ/fr10+zZszVjxgwFBgZanBAAAABofSjAgBvt27dPL730khYvXqza2lpJ0i233KLZs2crNTVVPj4+FicEAAAAWi8KMOAGu3fv1rx587Rs2TJJkq+vr6ZPn67Zs2crKSnJ4nQAAACAd6AAA9fR1q1bNW/ePK1evVqSFBgYqB/84AeaPXu2evbsaW04AAAAwMtQgIFmZozR+vXr9cILL2jTpk2SpODgYP3oRz/SY489pi5dulicEAAAAPBOFGCgGW3atEnPPfecNm/eLEkKDQ3VT37yEz366KOKiIiwOB0AAADg3SjAQDNIT0/Xc889p/Xr10uSwsLC9POf/1wPP/ywQkNDLU4HAAAAQKIAA99IRkaGnnvuOec9viEhIfr5z3+uRx99lOILAAAAeBgKMPBvOHDggJ5++mktX75cktS2bVv99Kc/1WOPPaawsDBrwwEAAABoEAUYuAZnzpzR888/r7/85S9yOByy2+16+OGH9fjjjysyMtLqeAAAAACaQAEGrkJpaalefvll/eY3v1FF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","_dom_classes":[],"_figure_label":"Figure","_image_mode":"full","_message":"","_model_module":"jupyter-matplotlib","_model_module_version":"^0.11","_model_name":"MPLCanvasModel","_rubberband_height":0,"_rubberband_width":0,"_rubberband_x":0,"_rubberband_y":0,"_size":[960,288],"_view_count":null,"_view_module":"jupyter-matplotlib","_view_module_version":"^0.11","_view_name":"MPLCanvasView","capture_scroll":false,"footer_visible":true,"header_visible":true,"layout":"IPY_MODEL_7fc38af2884b4349b5d4a2b38c7b5bab","pan_zoom_throttle":33,"resizable":true,"tabbable":null,"toolbar":"IPY_MODEL_b4ea391013cd4397bcb425504a572053","toolbar_position":"left","toolbar_visible":"fade-in-fade-out","tooltip":null}},"b4ea391013cd4397bcb425504a572053":{"model_module":"jupyter-matplotlib","model_module_version":"^0.11","model_name":"ToolbarModel","state":{"_current_action":"","_dom_classes":[],"_model_module":"jupyter-matplotlib","_model_module_version":"^0.11","_model_name":"ToolbarModel","_view_count":null,"_view_module":"jupyter-matplotlib","_view_module_version":"^0.11","_view_name":"ToolbarView","button_style":"","collapsed":true,"layout":"IPY_MODEL_2be55fc0a99c4167a432600e056aab8d","orientation":"vertical","tabbable":null,"toolitems":[["Home","Reset original view","home","home"],["Back","Back to previous view","arrow-left","back"],["Forward","Forward to next view","arrow-right","forward"],["Pan","Left button pans, Right button zooms\nx/y fixes axis, CTRL fixes aspect","arrows","pan"],["Zoom","Zoom to rectangle\nx/y fixes axis","square-o","zoom"],["Download","Download plot","floppy-o","save_figure"]],"tooltip":null}}},"version_major":2,"version_minor":0}
+    {"state":{"0d6435cc61c947418bc5975ca09c111d":{"model_module":"@jupyter-widgets/base","model_module_version":"2.0.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"2.0.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"2.0.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border_bottom":null,"border_left":null,"border_right":null,"border_top":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"396cc68b59b24288ac62f9441c21d7e8":{"model_module":"@jupyter-widgets/base","model_module_version":"2.0.0","model_name":"LayoutModel","state":{"_model_module":"@jupyter-widgets/base","_model_module_version":"2.0.0","_model_name":"LayoutModel","_view_count":null,"_view_module":"@jupyter-widgets/base","_view_module_version":"2.0.0","_view_name":"LayoutView","align_content":null,"align_items":null,"align_self":null,"border_bottom":null,"border_left":null,"border_right":null,"border_top":null,"bottom":null,"display":null,"flex":null,"flex_flow":null,"grid_area":null,"grid_auto_columns":null,"grid_auto_flow":null,"grid_auto_rows":null,"grid_column":null,"grid_gap":null,"grid_row":null,"grid_template_areas":null,"grid_template_columns":null,"grid_template_rows":null,"height":null,"justify_content":null,"justify_items":null,"left":null,"margin":null,"max_height":null,"max_width":null,"min_height":null,"min_width":null,"object_fit":null,"object_position":null,"order":null,"overflow":null,"padding":null,"right":null,"top":null,"visibility":null,"width":null}},"4d37d306ccd341f29fb5ac1bafccd851":{"model_module":"jupyter-matplotlib","model_module_version":"^0.12","model_name":"ToolbarModel","state":{"_current_action":"","_dom_classes":[],"_model_module":"jupyter-matplotlib","_model_module_version":"^0.12","_model_name":"ToolbarModel","_view_count":null,"_view_module":"jupyter-matplotlib","_view_module_version":"^0.12","_view_name":"ToolbarView","button_style":"","collapsed":true,"layout":"IPY_MODEL_0d6435cc61c947418bc5975ca09c111d","orientation":"vertical","tabbable":null,"toolitems":[["Home","Reset original view","home","home"],["Back","Back to previous view","arrow-left","back"],["Forward","Forward to next view","arrow-right","forward"],["Pan","Left button pans, Right button zooms\nx/y fixes axis, CTRL fixes aspect","arrows","pan"],["Zoom","Zoom to rectangle\nx/y fixes axis","square-o","zoom"],["Download","Download plot","floppy-o","save_figure"]],"tooltip":null}},"db36f8f83802452896cbe14800ee6496":{"model_module":"jupyter-matplotlib","model_module_version":"^0.12","model_name":"MPLCanvasModel","state":{"_cursor":"pointer","_data_url":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAEgCAYAAAB7DRowAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjgsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvwVt1zgAAAAlwSFlzAAAOxAAADsQBlSsOGwAANV1JREFUeJzt3Xl4VPWh//HPZCUTSMjCLgQCkkAIJMSAQFhUkAgC5cFbsUBbtVdbq7W1uPy0ityK13ppq+0tttpaVKxgRcCSAgKyGpYACUlYA0LYFbISsme+vz+8TB2zADXMmWTer+eZJ3LO98zzmfMc4vnwPeeMzRhjBAAAAABAK+djdQAAAAAAANyBAgwAAAAA8AoUYAAAAACAV6AAAwAAAAC8AgUYAAAAAOAVKMAAAAAAAK9AAQYAAAAAeAUKMAAAAADAK1CAAQAAAABegQIMAAAAAPAKFGAAAAAAgFegAAMAAAAAvAIFGAAAAADgFSjAAAAAAACvQAEGAAAAAHgFCjAAAAAAwCtQgAEAAAAAXoECDAAAAADwChRgAAAAAIBXoAADAAAAALwCBRgAAAAA4BUowAAAAAAAr0ABBgAAAAB4BQowAAAAAMArUIABAAAAAF6BAgwAAAAA8AoUYAAAAACAV6AAAwAAAAC8AgUYAAAAAOAVKMAAAAAAAK9AAQYAAAAAeAUKMAAAAADAK1CAAQAAAABewc/qALh+HA6HiouL1aZNG9lsNqvjAAAAAF7NGKPKykq1b99ePj7MRVqBAtyKFRcXKyIiwuoYAAAAAL6ioKBA4eHhVsfwShTgVqxNmzaSvvwLFhQUZHEaAAAAwLtVVFQoIiLCeZ4O96MAt2KXL3sOCgqiAAMAAAAegtsTrcOF5wAAAAAAr0ABBgAAAAB4BQowAAAAAMArUIABAAAAAF6BAgwAAAAA8Ao8BRoAAABAq+RwOHTy5EkdPnxYhw4d0g9+8AO+gsjLUYABAAAAtGhFRUU6dOiQs+he/pmXl6fKykrnuDFjxmjAgAEWJoXVKMAAAAAAPF5VVZWOHj3aYNG9cOFCo9t17txZffv2VUxMjAIDA92YGJ6IAgwAAADAIzgcDp0+fbpewT18+LCOHz8uh8PR4HbBwcHq27evs+he/nnjjTcqNDTUzZ8CnowCDAAAAMCtysrKdPjwYR08eFCHDh1y/szLy1N5eXmD2/j4+Kh3794uBffyz65du8pms7n5U6AlogADAAAAaHaXZ3MPHjxYr+ieOnWq0e06duxYr+D27dtXvXv3VkBAgBs/AVojCjAAAACAf1t5eXmDs7mHDh1qdDY3ICBAN954o2JiYhQbG6uYmBjnq3379u79APAqFGAAAAAATTLG6PTp0y4F9/LPEydONLpdx44dnQX3qz+joqLk50cVgftx1AEAAACQJFVUVDgfPPXVonv48GGVlZU1uI2/v7/69OnjLLdfndENCwtz8ycAmkYBBgAAALyIMUZnz56tN5N78OBBnThxQsaYBreLjIxscDa3V69ezOaixeBIBQAAAFqhyspK5eXlNXhv7sWLFxvcxs/PT717965XdGNiYhQREeHmTwA0PwowAAAA0IIVFRXpwIEDLq+DBw/q2LFjjc7mhoeHu1yufPlndHS0/P393fwJAPehAAMAAAAezhijM2fO1Cu6Bw4c0Oeff97gNr6+voqOjnYpuZf/OzIy0s2fAPAMFGAAAADAQ9TW1uqzzz5rcEa3scuWg4KCFBsbq379+rm8+vTpw/fmAl9DAQYAAADc7PJ353696Obl5am6urrBbSIiIlwK7uXS26NHD/n4+Lj5EwAtEwUYAAAAuE4KCwsbvGw5Pz+/0ftzu3fvXm82t1+/furQoYOb0wOtDwUYAAAA+AaMMTp16pTzUuWvFt0vvviiwW18fX3Vp0+feiU3NjZWbdu2dfMnALwHBRgAAAC4CnV1dTp27Jj27dun/fv3u9yfW1ZW1uA2dru9wftze/fuzf25gAUowC3I1KlTtXz5cq1du1Zjx461Og4AAECrdPlBVPv373eW3X379ungwYOqqqpqcJuv3597+dW9e3fuzwU8CAW4hXj77bdVXl5udQwAAIBWo6amRkePHnUpuvv379ehQ4caLbrdunVTXFyc+vXrp/79+zuLLl8rBLQMFOAW4NSpU/rFL36hrVu3Kioqyuo4AAAALUpNTY3y8vKcBfdy2T106JBqamoa3KZ79+7q37+/4uLinD/79eun0NBQN6cH0JwowB7OGKP77rtPv/jFL9SjR48mx9bU1Ki2ttb554qKiusdDwAAwGNUV1fr8OHD9Yru4cOHXc6RvioqKsql6F6e1Q0JCXFzegDuQAH2cK+99pqMMXrggQeuOHbevHmaO3euG1IBAABYp6qqSocPH3a5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RoxQSkqKRowYoeTkZNntdmsCAwAAj0QBBgB4nMLCQqWnpzsLb0ZGhqqrq13G3HDDDRo5cqRSUlKUkpKiuLg4+fr6WpQYAAC0BBRgAICljDHKz893uZx53759LmNsNpvi4+OdZTclJUU9evSwKDEAAGipKMAAALeqq6tTTk6OS+E9ffq0y5jAwEANGTLEWXaHDRumsLAwixIDAIDWggIMALiuampqtGfPHm3evFmbNm3S1q1bVVJS4jImPDzcef9uSkqKkpKSeDozAABodhRgAECzqqqqUkZGhjZt2qTNmzfr008/1aVLl1zG9OzZ0+X+3djYWPn4+FiUGAAAeAsKMADgGykvL9f27dudM7zbt29XZWWly5i+fftq1KhRGj16tEaNGsX9uwAAwBIUYADANbl48aLS09O1adMmbdq0SRkZGaqpqXEZExcXp9GjR2v06NEaOXIk318OAAA8AgUYANCk4uJibdmyxXlJ8549e1RXV+dcb7PZlJiY6JzdHTlypCIjIy1MDAAA0DAKMADAxcWLF7VlyxZt2LBBGzZs0J49e2SMca739fXVkCFDnDO8I0aMUPv27a0LDAAAcJUowADg5crLy5Wenq5PPvlEGzZsUEZGhssMr7+/v4YOHeqc4R0+fLjatm1rYWIAAIB/DwUYALxMVVWVtm/f7iy827dvd7mH19fXV0OHDtWtt96qW265RcOHD1dwcLCFiQEAAJoHBRgAWrmamhplZGQ4C296errLU5ptNpsGDx7sLLwpKSkKCQmxMDEAAMD1QQEGgFamtrZWmZmZ2rBhgz755BNt3bq13vfwxsfHOwvvqFGjFBYWZlFaAAAA96EAA0ALZ4zR4cOHtW7dOq1bt04bNmxQSUmJy5jY2Fhn4R09erQ6dOhgUVoAAADrUIABoAX64osvtH79eq1du1br1q3TyZMnXdb37t3bWXjHjBnD9/ACAACIAgwALcKlS5e0ZcsWrVu3TmvXrlV2drbL+sjISI0dO9b5ioqKsigpAACA56IAA4AHqqur0+7du50zvOnp6aqurnaub9OmjUaNGqVx48Zp7NixGjhwoHx8fCxMDAAA4PkowADgAYwxOnLkiHOGd8OGDSouLnaut9lsSk5O1tixYzVu3DgNGzZMbdq0sS4wAABAC0QBBgCLFBYWat26dfr444+1du1anThxwmV97969nTO8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AHD9UYCBVsoYo82bN+v111/XBx98oOrqaklSp06dNGvWLN177718dREAAAC8CgUYaGUKCgr09ttv6/XXX9fBgwclSTabTXfccYceeOABTZw4Uf7+/hanBAAAANyPAgy0AsYYbd26VX/605/0wQcfqKqqSpLUpUsX3X///frBD36gqKgoi1MCAAAA1qIAAy1YaWmpFi5cqD/+8Y/Oe3ttNptSU1P1wAMP6M4772S2FwAAAPg/FGCgBTpw4ID+8Ic/6K233lJZWZkkqXPnzrr//vt1//33q1evXhYnBAAAADwPBRhoIerq6pSWlqbf//73WrdunXP5mDFj9OMf/1hTpkxhthcAAABoAgUY8HCFhYX6y1/+ogULFuj48eOSJLvdrpkzZ+rhhx9WfHy8tQEBAACAFoICDHionJwc/e53v9O7776riooKSVJ0dLR+/OMf695771VYWJjFCQEAAICWhQIMeBBjjNatW6f58+fr448/di6//fbb9cgjj+iOO+6Qr6+vhQkBAACAlosCDHiA6upqLVmyRPPnz1d2drakLy9zvu+++/Twww8rJibG4oQAAABAy0cBBixUUlKiN954Q6+88opOnz4t6cunOf/kJz/Rgw8+qPDwcIsTAgAAAK0HBRiwwMmTJ/Xqq6/q9ddf18WLFyVJ/fr10+zZszVjxgwFBgZanBAAAABofSjAgBvt27dPL730khYvXqza2lpJ0i233KLZs2crNTVVPj4+FicEAAAAWi8KMOAGu3fv1rx587Rs2TJJkq+vr6ZPn67Zs2crKSnJ4nQAAACAd6AAA9fR1q1bNW/ePK1evVqSFBgYqB/84AeaPXu2evbsaW04AAAAwMtQgIFmZozR+vXr9cILL2jTpk2SpODgYP3oRz/SY489pi5dulicEAAAAPBOFGCgGW3atEnPPfecNm/eLEkKDQ3VT37yEz366KOKiIiwOB0AAADg3SjAQDNIT0/Xc889p/Xr10uSwsLC9POf/1wPP/ywQkNDLU4HAAAAQKIAA99IRkaGnnvuOec9viEhIfr5z3+uRx99lOILAAAAeBgKMPBvOHDggJ5++mktX75cktS2bVv99Kc/1WOPPaawsDBrwwEAAABoEAUYuAZnzpzR888/r7/85S9yOByy2+16+OGH9fjjjysyMtLqeAAAAACaQAEGrkJpaalefvll/eY3v1FF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","_dom_classes":[],"_figure_label":"Figure","_image_mode":"full","_message":"","_model_module":"jupyter-matplotlib","_model_module_version":"^0.12","_model_name":"MPLCanvasModel","_rubberband_height":0,"_rubberband_width":0,"_rubberband_x":0,"_rubberband_y":0,"_size":[960,288],"_view_count":null,"_view_module":"jupyter-matplotlib","_view_module_version":"^0.12","_view_name":"MPLCanvasView","capture_scroll":false,"footer_visible":true,"header_visible":true,"layout":"IPY_MODEL_396cc68b59b24288ac62f9441c21d7e8","pan_zoom_throttle":33,"resizable":true,"tabbable":null,"toolbar":"IPY_MODEL_4d37d306ccd341f29fb5ac1bafccd851","toolbar_position":"left","toolbar_visible":"fade-in-fade-out","tooltip":null}}},"version_major":2,"version_minor":0}
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
-        } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
-        }
-      }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
-        }
-      }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
           }
+          return false;
         }
-        return false;
-      }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
           }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
           for (const childEl of codeEl.children) {
             if (isCodeAnnotation(childEl)) {
               childEl.remove();
             }
           }
           return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/atismer\.github\.io\/nso2\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp("https:\/\/atismer\.github\.io\/nso2\/");
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
             }
           }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
           }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
           }
-        } else {
-          return undefined;
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
         }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
           });
         }
-      }
-    });
-    </script>
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
     
 
 </body></html>

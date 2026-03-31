@@ -1,248 +1,66 @@
 [
   {
-    "objectID": "einfuehrung.html",
-    "href": "einfuehrung.html",
-    "title": "Einführung",
-    "section": "",
-    "text": "Vorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
-  },
-  {
-    "objectID": "einfuehrung.html#organisation",
-    "href": "einfuehrung.html#organisation",
-    "title": "Einführung",
-    "section": "",
-    "text": "Vorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
-  },
-  {
-    "objectID": "einfuehrung.html#organisation-1",
-    "href": "einfuehrung.html#organisation-1",
-    "title": "Einführung",
-    "section": "Organisation",
-    "text": "Organisation\n\nKonzept\n\nKonzept der Vorlesung: Flip-the-classroom @www_fliptheclassroom\nErarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause\n\nDer Stoff für eine Einheit wird spätestens eine Woche vorher zur Verfügung gestellt\n\nIm Präsenztermin diskutieren wir Ihre Probleme gemeinsam\n\nKeine Wiederholung des Stoffes\nKeine Präsenz-Pflicht\n\nAlle Materialien zum erfolgreichen Bestehen der BSL sind online"
-  },
-  {
-    "objectID": "einfuehrung.html#organisation-2",
-    "href": "einfuehrung.html#organisation-2",
-    "title": "Einführung",
-    "section": "Organisation",
-    "text": "Organisation\n\nVorgehensmöglichkeiten\nZu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf unterschiedlichen Wegen erarbeiten:\nVorlesungs-basiert\n\nVorlesung durcharbeiten\nBearbeitung der Übung\n\nÜbungs-basiert\n\nBearbeitung der Übung bis Sie nicht mehr weiter kommen\nEinen Teil der Vorlesung bearbeiten\nMit Übung fortfahren\nWeiter bei (2.)"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt",
-    "href": "einfuehrung.html#inhalt",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nZeitplan\n\n\n\n\n\n\n\n\n\nVorlesung\n\n\n\n\n\nEinführung\n1\n\n\nFVM und Randbedingungen\n2\n\n\nPython und FiPy\n3\n\n\nLöser\n4\n\n\nNumerische Lösung der inkompressiblen Navier-Stokes-Gleichungen\n5/6\n\n\nParallele Optimierung und Sensitivitätsanalyse\n7\n\n\n\n\n\n\n\nÜbung\n\n\n\n\n\nEindimensionale Konvektion-Diffusion\n1\n\n\nLöser\n2\n\n\nSIMPLE-Verfahren\n3/4\n\n\nOptimierung\n5\n\n\n\n\n\n6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt-1",
-    "href": "einfuehrung.html#inhalt-1",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nÜberblick\n\n\n\n\n\n\n\n\nVorlesung\n\nKurze Wiederholung der Finite-Volumen-Methode\nBehandlung von Rändern im Berechnungsgebiet\nDiskretisierung von Dirichlet und Neumann Randbedingungen\n\nÜbung\n\nLösung 1D-Konvektion-Diffusion"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt-2",
-    "href": "einfuehrung.html#inhalt-2",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nÜberblick\n\n\n\n\nVorlesung\n\nUnterscheidung direkte und indirekte Verfahren\nEinführung in iterative Gleichungslöser\n\nSplitting-Verfahren\nGradientenverfahren\n\nBedingungen für Konvergenz\n\nÜbung\n\nProgrammierung ausgewählter Verfahren"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt-3",
-    "href": "einfuehrung.html#inhalt-3",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nÜberblick\n\n\n\n\nVorlesung\n\nProbleme beim Lösen der inkompressiblen Navier-Stokes-Gleichungen (Sattelpunktprobleme)\nTheoretische Herleitung des SIMPLE-Verfahrens\n\nÜbung\n\nProgrammierung des SIMPLE-Verfahrens\nLösung einer Hohlraumströmung (Cavity-Flow)"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt-4",
-    "href": "einfuehrung.html#inhalt-4",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nÜberblick\n\n\n\n\nVorlesung\n\nParallele Optimierung\nGrundlagen für eine Multi-Deme-Parallelisierung\n\nÜbung\n\nVergleich zwischen serieller und paralleler Optimierung"
-  },
-  {
-    "objectID": "einfuehrung.html#inhalt-5",
-    "href": "einfuehrung.html#inhalt-5",
-    "title": "Einführung",
-    "section": "Inhalt",
-    "text": "Inhalt\n\nÜberblick\n\n\n\n\nVorlesung\n\nBeschreibung Sensitivitätsanalyse\nMorris-Methode zur effizienten Untersuchung von Systemen mit vielen Unbekannten"
-  },
-  {
-    "objectID": "einfuehrung.html#vorraussetzungen",
-    "href": "einfuehrung.html#vorraussetzungen",
-    "title": "Einführung",
-    "section": "Vorraussetzungen",
-    "text": "Vorraussetzungen\n\nWas sollten Sie mitbingen?\n\nFreude an der Numerik\nIdeal: Numerische Strömungsmechanik mit Optimierungsanwendung 1 gehört\nKeine starken Abneigungen gegen Integrale, Matrizen, Vektoren, Differentialgleichungen, …\nSpaß am Programmieren\nIdeal: Kenntnisse in Python oder einer anderen objekt-orientierten Sprache und Erfahrungen mit “open-source”\nBereitschaft Rückmeldung zu geben und die Veranstaltung aktiv mitzugestalten"
-  },
-  {
-    "objectID": "einfuehrung.html#vorraussetzungen-1",
-    "href": "einfuehrung.html#vorraussetzungen-1",
-    "title": "Einführung",
-    "section": "Vorraussetzungen",
-    "text": "Vorraussetzungen\n\nWas brauchen Sie?\n\nBrowser\nwww\n\n\n\nWelche Hilfsmittel werden verwendet?\n\nPython (Versionen 3.6, 3.7 oder 3.12) \nFiPy @www_fipy \nJupyter @www_jupyter \nConceptboard zur Vorlesung\n\nOptionale Zusatzliteratur: @Moukalled_2016, @Weicker_2015, @Ferziger_2020 und @Versteeg_2007"
-  },
-  {
-    "objectID": "einfuehrung.html#conceptboard",
-    "href": "einfuehrung.html#conceptboard",
-    "title": "Einführung",
-    "section": "Conceptboard",
-    "text": "Conceptboard\n\n\n\n\n\n\nLink zum Board finden Sie auf der Kursseite\nDurch einen Klick auf Abschnitte gelangen Sie zu den Unterlagen der jeweiligen Vorlesung"
-  },
-  {
-    "objectID": "einfuehrung.html#conceptboard-1",
-    "href": "einfuehrung.html#conceptboard-1",
-    "title": "Einführung",
-    "section": "Conceptboard",
-    "text": "Conceptboard\nZum Beispiel zur Einheit Finite-Volumen-Methode und Randbedingungen"
-  },
-  {
-    "objectID": "einfuehrung.html#conceptboard-2",
-    "href": "einfuehrung.html#conceptboard-2",
-    "title": "Einführung",
-    "section": "Conceptboard",
-    "text": "Conceptboard\n\n\n\n\n\n\nDurch die Kommentarfunktion können Sie Fragen, Anmerkungen, Kritik, Fehlerkorrekturen, … in das Board zu den jeweiligen Folien einfügen.\nBitte kommentieren Sie alles was Ihnen auffällt und wo Sie Dinge nicht verstehen. Es hilft allen anderen Studierenden!\nDas Board dient auch zur Kommunikation zwischen Studierenden. Gerne dürfen Sie auf Kommentare von anderen antworten."
-  },
-  {
-    "objectID": "einfuehrung.html#conceptboard-3",
-    "href": "einfuehrung.html#conceptboard-3",
-    "title": "Einführung",
-    "section": "Conceptboard",
-    "text": "Conceptboard\n\n\n\n\n\n\nJeweils über der Titelfolie einer Einheit befinden sich die Kurzfragen. Gerne können Sie die Fragen durch Kommentare beantworten und gemeinsam diskutieren."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub",
-    "href": "einfuehrung.html#jupyterhub",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nAnmeldung\n\n\n\n\n\n\nZur Anmeldung müssen Sie den Benutzername und das Passwort eingeben.\nBeim Hub unter www.jupyterhub.ihs.uni-stuttgart.de muss der Benutzer erst angelegt werden.\nDer Hub unter hub.bwjupyter.de wird vom KIT betrieben; dort können Sie sich mit Ihrem st123456 Account anmelden."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-1",
-    "href": "einfuehrung.html#jupyterhub-1",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nStartseite unter www.ihs.uni-stuttgart.de\n\n\n\n\n\n\nNew öffnet ein Popup zum Starten eines Notebooks (Python 3) oder eines Terminals\nAnzeige der gespeicherten und laufenden Notebooks sowie alle Dateien im home Verzeichnis\nDie Daten auf dem Hub werden nicht gesichert. Falls notwendig und gewünscht legen Sie sich privat eine Kopie an."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-2",
-    "href": "einfuehrung.html#jupyterhub-2",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nStartseite unter hub.bwjupyter.de\n\n\n\n\n\n\nDas korrekte Abbild bekommen Sie hier.\nNachdem das Profil geladen ist, sehen Sie die Startseite.\nDurch einen Klick auf Python 3 in der Rubrik Notebook können Sie ein neues Notebook starten.\nEin Klick auf Terminal startet ein Terminal."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-3",
-    "href": "einfuehrung.html#jupyterhub-3",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nDas erste Notebook\n\n\n\n\n\n\nNeben manuellem Speichern wird regelmäßig automatisch gespeichert\nDurch Anklicken des Namens (Untitled1), können Sie diesen ändern.\nZellen werden mit Quelltext befüllt und durch Shift + Enter ausgeführt."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-4",
-    "href": "einfuehrung.html#jupyterhub-4",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nDer erste Code\nKopieren Sie den folgenden Quelltext in die erste Zelle und führen Sie diese mit Shift + Enter aus:\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as pyplot\nimport numpy as np\nErstellen Sie ein eindimensionales Datenfeld durch\nxx = np.arange(0,20,0.1)\nund geben Sie den Inhalt durch\nprint(xx)\nauf die Ausgabe aus."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-5",
-    "href": "einfuehrung.html#jupyterhub-5",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nDie erste Abbildung\nDer folgende Quelltext erzeugt die gezeigte Abbildung:\n\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as plt\nimport numpy as np\nxx = np.arange(0,20,0.1)\nplt.figure(1, figsize=[10,3])\nplt.plot(xx,np.sqrt(xx), 'k-')"
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-6",
-    "href": "einfuehrung.html#jupyterhub-6",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nWie bekomme ich die Notebooks für die Übung?\n\nStarten Sie ein Terminal auf dem Hub.\nRepository mit git klonen.\n\nhub.bwjupyter.de\ncd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git\nwww.jupyterhub.ihs.uni-stuttgart.de\ngit clone https://github.com/atismer/nso2-notebooks.git"
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-7",
-    "href": "einfuehrung.html#jupyterhub-7",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\n\nFür viele Python-Objekte erhalten Sie durch die Funktion help eine Ausgabe, z.B. für den Befehl plot:\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\nDurch Drücken der Taste Tabulator erhalten Sie die Autovervollständigung.\n\n\n\n\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\n\nHelp on function plot in module matplotlib.pyplot:\n\nplot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = True, data=None, **kwargs) -&gt; 'list[Line2D]'\n    Plot y versus x as lines and/or markers.\n    \n    Call signatures::\n    \n        plot([x], y, [fmt], *, data=None, **kwargs)\n        plot([x], y, [fmt], [x2], y2, [fmt2], ..., **kwargs)\n    \n    The coordinates of the points or line nodes are given by *x*, *y*.\n    \n    The optional parameter *fmt* is a convenient way for defining basic\n    formatting like color, marker and linestyle. It's a shortcut string\n    notation described in the *Notes* section below.\n    \n    &gt;&gt;&gt; plot(x, y)        # plot x and y using default line style and color\n    &gt;&gt;&gt; plot(x, y, 'bo')  # plot x and y using blue circle markers\n    &gt;&gt;&gt; plot(y)           # plot y using x as index array 0..N-1\n    &gt;&gt;&gt; plot(y, 'r+')     # ditto, but with red plusses\n    \n    You can use `.Line2D` properties as keyword arguments for more\n    control on the appearance. Line properties and *fmt* can be mixed.\n    The following two calls yield identical results:\n    \n    &gt;&gt;&gt; plot(x, y, 'go--', linewidth=2, markersize=12)\n    &gt;&gt;&gt; plot(x, y, color='green', marker='o', linestyle='dashed',\n    ...      linewidth=2, markersize=12)\n    \n    When conflicting with *fmt*, keyword arguments take precedence.\n    \n    \n    **Plotting labelled data**\n    \n    There's a convenient way for plotting objects with labelled data (i.e.\n    data that can be accessed by index ``obj['y']``). Instead of giving\n    the data in *x* and *y*, you can provide the object in the *data*\n    parameter and just give the labels for *x* and *y*::\n    \n    &gt;&gt;&gt; plot('xlabel', 'ylabel', data=obj)\n    \n    All indexable objects are supported. This could e.g. be a `dict`, a\n    `pandas.DataFrame` or a structured numpy array.\n    \n    \n    **Plotting multiple sets of data**\n    \n    There are various ways to plot multiple sets of data.\n    \n    - The most straight forward way is just to call `plot` multiple times.\n      Example:\n    \n      &gt;&gt;&gt; plot(x1, y1, 'bo')\n      &gt;&gt;&gt; plot(x2, y2, 'go')\n    \n    - If *x* and/or *y* are 2D arrays, a separate data set will be drawn\n      for every column. If both *x* and *y* are 2D, they must have the\n      same shape. If only one of them is 2D with shape (N, m) the other\n      must have length N and will be used for every data set m.\n    \n      Example:\n    \n      &gt;&gt;&gt; x = [1, 2, 3]\n      &gt;&gt;&gt; y = np.array([[1, 2], [3, 4], [5, 6]])\n      &gt;&gt;&gt; plot(x, y)\n    \n      is equivalent to:\n    \n      &gt;&gt;&gt; for col in range(y.shape[1]):\n      ...     plot(x, y[:, col])\n    \n    - The third way is to specify multiple sets of *[x]*, *y*, *[fmt]*\n      groups::\n    \n      &gt;&gt;&gt; plot(x1, y1, 'g^', x2, y2, 'g-')\n    \n      In this case, any additional keyword argument applies to all\n      datasets. Also, this syntax cannot be combined with the *data*\n      parameter.\n    \n    By default, each line is assigned a different style specified by a\n    'style cycle'. The *fmt* and line property parameters are only\n    necessary if you want explicit deviations from these defaults.\n    Alternatively, you can also change the style cycle using\n    :rc:`axes.prop_cycle`.\n    \n    \n    Parameters\n    ----------\n    x, y : array-like or float\n        The horizontal / vertical coordinates of the data points.\n        *x* values are optional and default to ``range(len(y))``.\n    \n        Commonly, these parameters are 1D arrays.\n    \n        They can also be scalars, or two-dimensional (in that case, the\n        columns represent separate data sets).\n    \n        These arguments cannot be passed as keywords.\n    \n    fmt : str, optional\n        A format string, e.g. 'ro' for red circles. See the *Notes*\n        section for a full description of the format strings.\n    \n        Format strings are just an abbreviation for quickly setting\n        basic line properties. All of these and more can also be\n        controlled by keyword arguments.\n    \n        This argument cannot be passed as keyword.\n    \n    data : indexable object, optional\n        An object with labelled data. If given, provide the label names to\n        plot in *x* and *y*.\n    \n        .. note::\n            Technically there's a slight ambiguity in calls where the\n            second label is a valid *fmt*. ``plot('n', 'o', data=obj)``\n            could be ``plt(x, y)`` or ``plt(y, fmt)``. In such cases,\n            the former interpretation is chosen, but a warning is issued.\n            You may suppress the warning by adding an empty format string\n            ``plot('n', 'o', '', data=obj)``.\n    \n    Returns\n    -------\n    list of `.Line2D`\n        A list of lines representing the plotted data.\n    \n    Other Parameters\n    ----------------\n    scalex, scaley : bool, default: True\n        These parameters determine if the view limits are adapted to the\n        data limits. The values are passed on to\n        `~.axes.Axes.autoscale_view`.\n    \n    **kwargs : `~matplotlib.lines.Line2D` properties, optional\n        *kwargs* are used to specify properties like a line label (for\n        auto legends), linewidth, antialiasing, marker face color.\n        Example::\n    \n        &gt;&gt;&gt; plot([1, 2, 3], [1, 2, 3], 'go-', label='line 1', linewidth=2)\n        &gt;&gt;&gt; plot([1, 2, 3], [1, 4, 9], 'rs', label='line 2')\n    \n        If you specify multiple lines with one plot call, the kwargs apply\n        to all those lines. In case the label object is iterable, each\n        element is used as labels for each set of data.\n    \n        Here is a list of available `.Line2D` properties:\n    \n        Properties:\n        agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array and two offsets from the bottom left corner of the image\n        alpha: float or None\n        animated: bool\n        antialiased or aa: bool\n        clip_box: `~matplotlib.transforms.BboxBase` or None\n        clip_on: bool\n        clip_path: Patch or (Path, Transform) or None\n        color or c: :mpltype:`color`\n        dash_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        dash_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        dashes: sequence of floats (on/off ink in points) or (None, None)\n        data: (2, N) array or two 1D arrays\n        drawstyle or ds: {'default', 'steps', 'steps-pre', 'steps-mid', 'steps-post'}, default: 'default'\n        figure: `~matplotlib.figure.Figure` or `~matplotlib.figure.SubFigure`\n        fillstyle: {'full', 'left', 'right', 'bottom', 'top', 'none'}\n        gapcolor: :mpltype:`color` or None\n        gid: str\n        in_layout: bool\n        label: object\n        linestyle or ls: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}\n        linewidth or lw: float\n        marker: marker style string, `~.path.Path` or `~.markers.MarkerStyle`\n        markeredgecolor or mec: :mpltype:`color`\n        markeredgewidth or mew: float\n        markerfacecolor or mfc: :mpltype:`color`\n        markerfacecoloralt or mfcalt: :mpltype:`color`\n        markersize or ms: float\n        markevery: None or int or (int, int) or slice or list[int] or float or (float, float) or list[bool]\n        mouseover: bool\n        path_effects: list of `.AbstractPathEffect`\n        picker: float or callable[[Artist, Event], tuple[bool, dict]]\n        pickradius: float\n        rasterized: bool\n        sketch_params: (scale: float, length: float, randomness: float)\n        snap: bool or None\n        solid_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        solid_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        transform: unknown\n        url: str\n        visible: bool\n        xdata: 1D array\n        ydata: 1D array\n        zorder: float\n    \n    See Also\n    --------\n    scatter : XY scatter plot with markers of varying size and/or color (\n        sometimes also called bubble chart).\n    \n    Notes\n    -----\n    \n    .. note::\n    \n        This is the :ref:`pyplot wrapper &lt;pyplot_interface&gt;` for `.axes.Axes.plot`.\n    \n    **Format Strings**\n    \n    A format string consists of a part for color, marker and line::\n    \n        fmt = '[marker][line][color]'\n    \n    Each of them is optional. If not provided, the value from the style\n    cycle is used. Exception: If ``line`` is given, but no ``marker``,\n    the data will be a line without markers.\n    \n    Other combinations such as ``[color][marker][line]`` are also\n    supported, but note that their parsing may be ambiguous.\n    \n    **Markers**\n    \n    =============   ===============================\n    character       description\n    =============   ===============================\n    ``'.'``         point marker\n    ``','``         pixel marker\n    ``'o'``         circle marker\n    ``'v'``         triangle_down marker\n    ``'^'``         triangle_up marker\n    ``'&lt;'``         triangle_left marker\n    ``'&gt;'``         triangle_right marker\n    ``'1'``         tri_down marker\n    ``'2'``         tri_up marker\n    ``'3'``         tri_left marker\n    ``'4'``         tri_right marker\n    ``'8'``         octagon marker\n    ``'s'``         square marker\n    ``'p'``         pentagon marker\n    ``'P'``         plus (filled) marker\n    ``'*'``         star marker\n    ``'h'``         hexagon1 marker\n    ``'H'``         hexagon2 marker\n    ``'+'``         plus marker\n    ``'x'``         x marker\n    ``'X'``         x (filled) marker\n    ``'D'``         diamond marker\n    ``'d'``         thin_diamond marker\n    ``'|'``         vline marker\n    ``'_'``         hline marker\n    =============   ===============================\n    \n    **Line Styles**\n    \n    =============    ===============================\n    character        description\n    =============    ===============================\n    ``'-'``          solid line style\n    ``'--'``         dashed line style\n    ``'-.'``         dash-dot line style\n    ``':'``          dotted line style\n    =============    ===============================\n    \n    Example format strings::\n    \n        'b'    # blue markers with default shape\n        'or'   # red circles\n        '-g'   # green solid line\n        '--'   # dashed line with default color\n        '^k:'  # black triangle_up markers connected by a dotted line\n    \n    **Colors**\n    \n    The supported color abbreviations are the single letter codes\n    \n    =============    ===============================\n    character        color\n    =============    ===============================\n    ``'b'``          blue\n    ``'g'``          green\n    ``'r'``          red\n    ``'c'``          cyan\n    ``'m'``          magenta\n    ``'y'``          yellow\n    ``'k'``          black\n    ``'w'``          white\n    =============    ===============================\n    \n    and the ``'CN'`` colors that index into the default property cycle.\n    \n    If the color is the only part of the format string, you can\n    additionally use any  `matplotlib.colors` spec, e.g. full names\n    (``'green'``) or hex strings (``'#008000'``)."
-  },
-  {
-    "objectID": "einfuehrung.html#jupyterhub-8",
-    "href": "einfuehrung.html#jupyterhub-8",
-    "title": "Einführung",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\n\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\nDie Ausführung von\nplt.plot(xx,np.sqrt(xx), 'kl')\nerzeugt einen Fehler.\nWichtig: Ruhe bewahren!\nVersuchen Sie sich selber zu helfen. Je öfter Sie den Fehler suchen und versuchen diesen zu beheben, desto besser werden Sie darin. In der Regel steht der Fehler ganz unten. Der obere Teil enthält meist ein Backtrace und listet alle bis zum Fehler aufgerufenen Funktionen.\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\nCell In[1], line 7\n      5 xx = np.arange(0,20,0.1)                                                        \n      6 plt.figure(1, figsize=[10,3])                                                   \n----&gt; 7 plt.plot(xx,np.sqrt(xx), 'kl')  \n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/pyplot.py:3827, in plot(scalex, scaley, data, *args, **kwargs)\n   3819 @_copy_docstring_and_deprecators(Axes.plot)\n   3820 def plot(\n   3821     *args: float | ArrayLike | str,\n   (...)   3825     **kwargs,\n   3826 ) -&gt; list[Line2D]:\n-&gt; 3827     return gca().plot(\n   3828         *args,\n   3829         scalex=scalex,\n   3830         scaley=scaley,\n   3831         **({\"data\": data} if data is not None else {}),\n   3832         **kwargs,\n   3833     )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777, in Axes.plot(self, scalex, scaley, data, *args, **kwargs)\n   1534 \"\"\"\n   1535 Plot y versus x as lines and/or markers.\n   1536 \n   (...)   1774 (``'green'``) or hex strings (``'#008000'``).\n   1775 \"\"\"\n   1776 kwargs = cbook.normalize_kwargs(kwargs, mlines.Line2D)\n-&gt; 1777 lines = [*self._get_lines(self, *args, data=data, **kwargs)]\n   1778 for line in lines:\n   1779     self.add_line(line)\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:297, in _process_plot_var_args.__call__(self, axes, data, return_kwargs, *args, **kwargs)\n    295     this += args[0],\n    296     args = args[1:]\n--&gt; 297 yield from self._plot_args(\n    298     axes, this, kwargs, ambiguous_fmt_datakey=ambiguous_fmt_datakey,\n    299     return_kwargs=return_kwargs\n    300 )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:444, in _process_plot_var_args._plot_args(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\n    441 if len(tup) &gt; 1 and isinstance(tup[-1], str):\n    442     # xy is tup with fmt stripped (could still be (y,) only)\n    443     *xy, fmt = tup\n--&gt; 444     linestyle, marker, color = _process_plot_format(\n    445         fmt, ambiguous_fmt_datakey=ambiguous_fmt_datakey)\n    446 elif len(tup) == 3:\n    447     raise ValueError('third arg must be a format string')\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:192, in _process_plot_format(fmt, ambiguous_fmt_datakey)\n    190         i += len(cn_color[0])\n    191     else:\n--&gt; 192         raise ValueError(errfmt.format(fmt, f\"unrecognized character {c!r}\"))\n    194 if linestyle is None and marker is None:\n    195     linestyle = mpl.rcParams['lines.linestyle']\n\nValueError: 'kl' is not a valid format string (unrecognized character 'l')"
-  },
-  {
-    "objectID": "einfuehrung.html#referenzen",
-    "href": "einfuehrung.html#referenzen",
-    "title": "Einführung",
-    "section": "Referenzen",
-    "text": "Referenzen"
-  },
-  {
     "objectID": "index.html#organisation",
     "href": "index.html#organisation",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Organisation",
-    "text": "Organisation\nKontakt und Prüfung\n\n\n\nVorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
+    "text": "Organisation\n\n\n\nVorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
   },
   {
-    "objectID": "index.html#organisation-1",
-    "href": "index.html#organisation-1",
+    "objectID": "index.html#konzept",
+    "href": "index.html#konzept",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
-    "section": "Organisation",
-    "text": "Organisation\nKonzept\n\nKonzept der Vorlesung: Flip-the-classroom [1]\nErarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause\n\nDer Stoff für eine Einheit wird spätestens eine Woche vorher zur Verfügung gestellt\n\nIm Präsenztermin diskutieren wir Ihre Probleme gemeinsam\n\nKeine Wiederholung des Stoffes\nKeine Präsenz-Pflicht\n\nAlle Materialien zum erfolgreichen Bestehen der BSL sind online"
+    "section": "Konzept",
+    "text": "Konzept\n\nKonzept der Vorlesung: Flip-the-classroom [1]\nErarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause\n\nDer Stoff für eine Einheit wird spätestens eine Woche vorher zur Verfügung gestellt\n\nIm Präsenztermin diskutieren wir Ihre Probleme gemeinsam\n\nKeine Wiederholung des Stoffes\nKeine Präsenz-Pflicht\n\nAlle Materialien zum erfolgreichen Bestehen der BSL sind online"
   },
   {
-    "objectID": "index.html#organisation-2",
-    "href": "index.html#organisation-2",
+    "objectID": "index.html#konzept-1",
+    "href": "index.html#konzept-1",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
-    "section": "Organisation",
-    "text": "Organisation\nVorgehensmöglichkeiten\nZu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf unterschiedlichen Wegen erarbeiten:\nVorlesungs-basiert\n\nVorlesung durcharbeiten\nBearbeitung der Übung\n\nÜbungs-basiert\n\nBearbeitung der Übung bis Sie nicht mehr weiter kommen\nEinen Teil der Vorlesung bearbeiten\nMit Übung fortfahren\nWeiter bei (2.)"
+    "section": "Konzept",
+    "text": "Konzept\nVorgehensmöglichkeiten\nZu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf unterschiedlichen Wegen erarbeiten:\nVorlesungs-basiert\n\nVorlesung durcharbeiten\nBearbeitung der Übung\n\nÜbungs-basiert\n\nBearbeitung der Übung bis Sie nicht mehr weiter kommen\nEinen Teil der Vorlesung bearbeiten\nMit Übung fortfahren\nWeiter bei (2.)"
+  },
+  {
+    "objectID": "index.html#zeitplan",
+    "href": "index.html#zeitplan",
+    "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
+    "section": "Zeitplan",
+    "text": "Zeitplan\n\n\n\n\n\n\n\n\n\nVorlesung\n\n\n\n\n\nEinführung\n1\n\n\nFVM und Randbedingungen\n2\n\n\nPython und FiPy\n3\n\n\nLöser\n4\n\n\nNumerische Lösung der inkompressiblen Navier-Stokes-Gleichungen\n5/6\n\n\nParallele Optimierung und Sensitivitätsanalyse\n7\n\n\n\n\n\n\n\n\n\n\n\nÜbung\n\n\n\n\n\nEindimensionale Konvektion-Diffusion\n1\n\n\nLöser\n2\n\n\nSIMPLE-Verfahren\n3/4\n\n\nOptimierung\n5\n\n\n\n\n6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten"
   },
   {
     "objectID": "index.html#inhalt",
     "href": "index.html#inhalt",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Inhalt",
-    "text": "Inhalt\nZeitplan\n\n\n\n\n\n\n\n\n\nVorlesung\n\n\n\n\n\nEinführung\n1\n\n\nFVM und Randbedingungen\n2\n\n\nPython und FiPy\n3\n\n\nLöser\n4\n\n\nNumerische Lösung der inkompressiblen Navier-Stokes-Gleichungen\n5/6\n\n\nParallele Optimierung und Sensitivitätsanalyse\n7\n\n\n\n\n\n\n\nÜbung\n\n\n\n\n\nEindimensionale Konvektion-Diffusion\n1\n\n\nLöser\n2\n\n\nSIMPLE-Verfahren\n3/4\n\n\nOptimierung\n5\n\n\n\n\n6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten"
+    "text": "Inhalt\n\n\n\n\n\n\n\n\nVorlesung\n\nKurze Wiederholung der Finite-Volumen-Methode\nBehandlung von Rändern im Berechnungsgebiet\nDiskretisierung von Dirichlet und Neumann Randbedingungen\n\nÜbung\n\nLösung 1D-Konvektion-Diffusion"
   },
   {
     "objectID": "index.html#inhalt-1",
     "href": "index.html#inhalt-1",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Inhalt",
-    "text": "Inhalt\nÜberblick\n\n\n\n\n\n\n\n\nVorlesung\n\nKurze Wiederholung der Finite-Volumen-Methode\nBehandlung von Rändern im Berechnungsgebiet\nDiskretisierung von Dirichlet und Neumann Randbedingungen\n\nÜbung\n\nLösung 1D-Konvektion-Diffusion"
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nUnterscheidung direkte und indirekte Verfahren\nEinführung in iterative Gleichungslöser\n\nSplitting-Verfahren\nGradientenverfahren\n\nBedingungen für Konvergenz\n\nÜbung\n\nProgrammierung ausgewählter Verfahren"
   },
   {
     "objectID": "index.html#inhalt-2",
     "href": "index.html#inhalt-2",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Inhalt",
-    "text": "Inhalt\nÜberblick\n\n\n\n\nVorlesung\n\nUnterscheidung direkte und indirekte Verfahren\nEinführung in iterative Gleichungslöser\n\nSplitting-Verfahren\nGradientenverfahren\n\nBedingungen für Konvergenz\n\nÜbung\n\nProgrammierung ausgewählter Verfahren"
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nProbleme beim Lösen der inkompressiblen Navier-Stokes-Gleichungen (Sattelpunktprobleme)\nTheoretische Herleitung des SIMPLE-Verfahrens\n\nÜbung\n\nProgrammierung des SIMPLE-Verfahrens\nLösung einer Hohlraumströmung (Cavity-Flow)"
   },
   {
     "objectID": "index.html#inhalt-3",
     "href": "index.html#inhalt-3",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Inhalt",
-    "text": "Inhalt\nÜberblick\n\n\n\n\nVorlesung\n\nProbleme beim Lösen der inkompressiblen Navier-Stokes-Gleichungen (Sattelpunktprobleme)\nTheoretische Herleitung des SIMPLE-Verfahrens\n\nÜbung\n\nProgrammierung des SIMPLE-Verfahrens\nLösung einer Hohlraumströmung (Cavity-Flow)"
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nParallele Optimierung\nGrundlagen für eine Multi-Deme-Parallelisierung\n\nÜbung\n\nVergleich zwischen serieller und paralleler Optimierung"
   },
   {
     "objectID": "index.html#inhalt-4",
     "href": "index.html#inhalt-4",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Inhalt",
-    "text": "Inhalt\nÜberblick\n\n\n\n\nVorlesung\n\nParallele Optimierung\nGrundlagen für eine Multi-Deme-Parallelisierung\n\nÜbung\n\nVergleich zwischen serieller und paralleler Optimierung"
-  },
-  {
-    "objectID": "index.html#inhalt-5",
-    "href": "index.html#inhalt-5",
-    "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
-    "section": "Inhalt",
-    "text": "Inhalt\nÜberblick\n\n\n\n\nVorlesung\n\nBeschreibung Sensitivitätsanalyse\nMorris-Methode zur effizienten Untersuchung von Systemen mit vielen Unbekannten"
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nBeschreibung Sensitivitätsanalyse\nMorris-Methode zur effizienten Untersuchung von Systemen mit vielen Unbekannten"
   },
   {
     "objectID": "index.html#vorraussetzungen",
@@ -291,60 +109,53 @@
     "href": "index.html#jupyterhub",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nAnmeldung\n\n\nZur Anmeldung müssen Sie den Benutzername und das Passwort eingeben.\nBeim Hub unter www.jupyterhub.ihs.uni-stuttgart.de muss der Benutzer erst angelegt werden.\nDer Hub unter hub.bwjupyter.de wird vom KIT betrieben; dort können Sie sich mit Ihrem st123456 Account anmelden."
+    "text": "Jupyterhub\nAnmeldung\n\n\nDer Hub wird vom KIT betrieben; dort können Sie sich mit Ihrem st123456 Account anmelden.\nZur Anmeldung müssen Sie den Benutzername und das Passwort eingeben."
   },
   {
     "objectID": "index.html#jupyterhub-1",
     "href": "index.html#jupyterhub-1",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nStartseite unter www.ihs.uni-stuttgart.de\n\n\nNew öffnet ein Popup zum Starten eines Notebooks (Python 3) oder eines Terminals\nAnzeige der gespeicherten und laufenden Notebooks sowie alle Dateien im home Verzeichnis\nDie Daten auf dem Hub werden nicht gesichert. Falls notwendig und gewünscht legen Sie sich privat eine Kopie an."
+    "text": "Jupyterhub\nStartseite\n\n\nDas korrekte Abbild bekommen Sie über den Link in der Kursseite.\nNachdem das Profil geladen ist, sehen Sie die Startseite.\nDurch einen Klick auf Python 3 in der Rubrik Notebook können Sie ein neues Notebook starten.\nEin Klick auf Terminal startet ein Terminal."
   },
   {
     "objectID": "index.html#jupyterhub-2",
     "href": "index.html#jupyterhub-2",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nStartseite unter hub.bwjupyter.de\n\n\nDas korrekte Abbild bekommen Sie hier.\nNachdem das Profil geladen ist, sehen Sie die Startseite.\nDurch einen Klick auf Python 3 in der Rubrik Notebook können Sie ein neues Notebook starten.\nEin Klick auf Terminal startet ein Terminal."
+    "text": "Jupyterhub\nDas erste Notebook\n\n\nNeben manuellem Speichern wird regelmäßig automatisch gespeichert\nDurch einen Rechtsklick auf den Tab oder den Dateinamen (Untitled1.ipynb), kann dieser geändert werden.\nZellen werden mit Quelltext befüllt und durch Shift + Enter ausgeführt."
   },
   {
     "objectID": "index.html#jupyterhub-3",
     "href": "index.html#jupyterhub-3",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nDas erste Notebook\n\n\nNeben manuellem Speichern wird regelmäßig automatisch gespeichert\nDurch Anklicken des Namens (Untitled1), können Sie diesen ändern.\nZellen werden mit Quelltext befüllt und durch Shift + Enter ausgeführt."
+    "text": "Jupyterhub\nDer erste Code\nKopieren Sie den folgenden Quelltext in die erste Zelle und führen Sie diese mit Shift + Enter aus:\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as pyplot\nimport numpy as np\nErstellen Sie ein eindimensionales Datenfeld durch\nxx = np.arange(0,20,0.1)\nund geben Sie den Inhalt durch\nprint(xx)\nauf die Ausgabe aus."
   },
   {
     "objectID": "index.html#jupyterhub-4",
     "href": "index.html#jupyterhub-4",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nDer erste Code\nKopieren Sie den folgenden Quelltext in die erste Zelle und führen Sie diese mit Shift + Enter aus:\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as pyplot\nimport numpy as np\nErstellen Sie ein eindimensionales Datenfeld durch\nxx = np.arange(0,20,0.1)\nund geben Sie den Inhalt durch\nprint(xx)\nauf die Ausgabe aus."
+    "text": "Jupyterhub\nDie erste Abbildung\nDer folgende Quelltext erzeugt die gezeigte Abbildung:\n\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as plt\nimport numpy as np\nxx = np.arange(0,20,0.1)\nplt.figure(1, figsize=[10,3])\nplt.plot(xx,np.sqrt(xx), 'k-')"
   },
   {
     "objectID": "index.html#jupyterhub-5",
     "href": "index.html#jupyterhub-5",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nDie erste Abbildung\nDer folgende Quelltext erzeugt die gezeigte Abbildung:\n\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as plt\nimport numpy as np\nxx = np.arange(0,20,0.1)\nplt.figure(1, figsize=[10,3])\nplt.plot(xx,np.sqrt(xx), 'k-')"
+    "text": "Jupyterhub\nWie bekomme ich die Notebooks für die Übung?\n\nStarten Sie ein Terminal auf dem Hub.\nRepository mit git klonen.\ncd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git"
   },
   {
     "objectID": "index.html#jupyterhub-6",
     "href": "index.html#jupyterhub-6",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
-    "text": "Jupyterhub\nWie bekomme ich die Notebooks für die Übung?\n\nStarten Sie ein Terminal auf dem Hub.\nRepository mit git klonen.\n\nhub.bwjupyter.de\ncd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git\nwww.jupyterhub.ihs.uni-stuttgart.de\ngit clone https://github.com/atismer/nso2-notebooks.git"
+    "text": "Jupyterhub\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\n\nFür viele Python-Objekte erhalten Sie durch die Funktion help eine Ausgabe, z.B. für den Befehl plot:\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\nDurch Drücken der Taste Tabulator erhalten Sie die Autovervollständigung.\n\n\n\n\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\n\nHelp on function plot in module matplotlib.pyplot:\n\nplot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = True, data=None, **kwargs) -&gt; 'list[Line2D]'\n    Plot y versus x as lines and/or markers.\n    \n    Call signatures::\n    \n        plot([x], y, [fmt], *, data=None, **kwargs)\n        plot([x], y, [fmt], [x2], y2, [fmt2], ..., **kwargs)\n    \n    The coordinates of the points or line nodes are given by *x*, *y*.\n    \n    The optional parameter *fmt* is a convenient way for defining basic\n    formatting like color, marker and linestyle. It's a shortcut string\n    notation described in the *Notes* section below.\n    \n    &gt;&gt;&gt; plot(x, y)        # plot x and y using default line style and color\n    &gt;&gt;&gt; plot(x, y, 'bo')  # plot x and y using blue circle markers\n    &gt;&gt;&gt; plot(y)           # plot y using x as index array 0..N-1\n    &gt;&gt;&gt; plot(y, 'r+')     # ditto, but with red plusses\n    \n    You can use `.Line2D` properties as keyword arguments for more\n    control on the appearance. Line properties and *fmt* can be mixed.\n    The following two calls yield identical results:\n    \n    &gt;&gt;&gt; plot(x, y, 'go--', linewidth=2, markersize=12)\n    &gt;&gt;&gt; plot(x, y, color='green', marker='o', linestyle='dashed',\n    ...      linewidth=2, markersize=12)\n    \n    When conflicting with *fmt*, keyword arguments take precedence.\n    \n    \n    **Plotting labelled data**\n    \n    There's a convenient way for plotting objects with labelled data (i.e.\n    data that can be accessed by index ``obj['y']``). Instead of giving\n    the data in *x* and *y*, you can provide the object in the *data*\n    parameter and just give the labels for *x* and *y*::\n    \n    &gt;&gt;&gt; plot('xlabel', 'ylabel', data=obj)\n    \n    All indexable objects are supported. This could e.g. be a `dict`, a\n    `pandas.DataFrame` or a structured numpy array.\n    \n    \n    **Plotting multiple sets of data**\n    \n    There are various ways to plot multiple sets of data.\n    \n    - The most straight forward way is just to call `plot` multiple times.\n      Example:\n    \n      &gt;&gt;&gt; plot(x1, y1, 'bo')\n      &gt;&gt;&gt; plot(x2, y2, 'go')\n    \n    - If *x* and/or *y* are 2D arrays, a separate data set will be drawn\n      for every column. If both *x* and *y* are 2D, they must have the\n      same shape. If only one of them is 2D with shape (N, m) the other\n      must have length N and will be used for every data set m.\n    \n      Example:\n    \n      &gt;&gt;&gt; x = [1, 2, 3]\n      &gt;&gt;&gt; y = np.array([[1, 2], [3, 4], [5, 6]])\n      &gt;&gt;&gt; plot(x, y)\n    \n      is equivalent to:\n    \n      &gt;&gt;&gt; for col in range(y.shape[1]):\n      ...     plot(x, y[:, col])\n    \n    - The third way is to specify multiple sets of *[x]*, *y*, *[fmt]*\n      groups::\n    \n      &gt;&gt;&gt; plot(x1, y1, 'g^', x2, y2, 'g-')\n    \n      In this case, any additional keyword argument applies to all\n      datasets. Also, this syntax cannot be combined with the *data*\n      parameter.\n    \n    By default, each line is assigned a different style specified by a\n    'style cycle'. The *fmt* and line property parameters are only\n    necessary if you want explicit deviations from these defaults.\n    Alternatively, you can also change the style cycle using\n    :rc:`axes.prop_cycle`.\n    \n    \n    Parameters\n    ----------\n    x, y : array-like or float\n        The horizontal / vertical coordinates of the data points.\n        *x* values are optional and default to ``range(len(y))``.\n    \n        Commonly, these parameters are 1D arrays.\n    \n        They can also be scalars, or two-dimensional (in that case, the\n        columns represent separate data sets).\n    \n        These arguments cannot be passed as keywords.\n    \n    fmt : str, optional\n        A format string, e.g. 'ro' for red circles. See the *Notes*\n        section for a full description of the format strings.\n    \n        Format strings are just an abbreviation for quickly setting\n        basic line properties. All of these and more can also be\n        controlled by keyword arguments.\n    \n        This argument cannot be passed as keyword.\n    \n    data : indexable object, optional\n        An object with labelled data. If given, provide the label names to\n        plot in *x* and *y*.\n    \n        .. note::\n            Technically there's a slight ambiguity in calls where the\n            second label is a valid *fmt*. ``plot('n', 'o', data=obj)``\n            could be ``plt(x, y)`` or ``plt(y, fmt)``. In such cases,\n            the former interpretation is chosen, but a warning is issued.\n            You may suppress the warning by adding an empty format string\n            ``plot('n', 'o', '', data=obj)``.\n    \n    Returns\n    -------\n    list of `.Line2D`\n        A list of lines representing the plotted data.\n    \n    Other Parameters\n    ----------------\n    scalex, scaley : bool, default: True\n        These parameters determine if the view limits are adapted to the\n        data limits. The values are passed on to\n        `~.axes.Axes.autoscale_view`.\n    \n    **kwargs : `~matplotlib.lines.Line2D` properties, optional\n        *kwargs* are used to specify properties like a line label (for\n        auto legends), linewidth, antialiasing, marker face color.\n        Example::\n    \n        &gt;&gt;&gt; plot([1, 2, 3], [1, 2, 3], 'go-', label='line 1', linewidth=2)\n        &gt;&gt;&gt; plot([1, 2, 3], [1, 4, 9], 'rs', label='line 2')\n    \n        If you specify multiple lines with one plot call, the kwargs apply\n        to all those lines. In case the label object is iterable, each\n        element is used as labels for each set of data.\n    \n        Here is a list of available `.Line2D` properties:\n    \n        Properties:\n        agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array and two offsets from the bottom left corner of the image\n        alpha: float or None\n        animated: bool\n        antialiased or aa: bool\n        clip_box: `~matplotlib.transforms.BboxBase` or None\n        clip_on: bool\n        clip_path: Patch or (Path, Transform) or None\n        color or c: :mpltype:`color`\n        dash_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        dash_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        dashes: sequence of floats (on/off ink in points) or (None, None)\n        data: (2, N) array or two 1D arrays\n        drawstyle or ds: {'default', 'steps', 'steps-pre', 'steps-mid', 'steps-post'}, default: 'default'\n        figure: `~matplotlib.figure.Figure` or `~matplotlib.figure.SubFigure`\n        fillstyle: {'full', 'left', 'right', 'bottom', 'top', 'none'}\n        gapcolor: :mpltype:`color` or None\n        gid: str\n        in_layout: bool\n        label: object\n        linestyle or ls: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}\n        linewidth or lw: float\n        marker: marker style string, `~.path.Path` or `~.markers.MarkerStyle`\n        markeredgecolor or mec: :mpltype:`color`\n        markeredgewidth or mew: float\n        markerfacecolor or mfc: :mpltype:`color`\n        markerfacecoloralt or mfcalt: :mpltype:`color`\n        markersize or ms: float\n        markevery: None or int or (int, int) or slice or list[int] or float or (float, float) or list[bool]\n        mouseover: bool\n        path_effects: list of `.AbstractPathEffect`\n        picker: float or callable[[Artist, Event], tuple[bool, dict]]\n        pickradius: float\n        rasterized: bool\n        sketch_params: (scale: float, length: float, randomness: float)\n        snap: bool or None\n        solid_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        solid_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        transform: unknown\n        url: str\n        visible: bool\n        xdata: 1D array\n        ydata: 1D array\n        zorder: float\n    \n    See Also\n    --------\n    scatter : XY scatter plot with markers of varying size and/or color (\n        sometimes also called bubble chart).\n    \n    Notes\n    -----\n    \n    .. note::\n    \n        This is the :ref:`pyplot wrapper &lt;pyplot_interface&gt;` for `.axes.Axes.plot`.\n    \n    **Format Strings**\n    \n    A format string consists of a part for color, marker and line::\n    \n        fmt = '[marker][line][color]'\n    \n    Each of them is optional. If not provided, the value from the style\n    cycle is used. Exception: If ``line`` is given, but no ``marker``,\n    the data will be a line without markers.\n    \n    Other combinations such as ``[color][marker][line]`` are also\n    supported, but note that their parsing may be ambiguous.\n    \n    **Markers**\n    \n    =============   ===============================\n    character       description\n    =============   ===============================\n    ``'.'``         point marker\n    ``','``         pixel marker\n    ``'o'``         circle marker\n    ``'v'``         triangle_down marker\n    ``'^'``         triangle_up marker\n    ``'&lt;'``         triangle_left marker\n    ``'&gt;'``         triangle_right marker\n    ``'1'``         tri_down marker\n    ``'2'``         tri_up marker\n    ``'3'``         tri_left marker\n    ``'4'``         tri_right marker\n    ``'8'``         octagon marker\n    ``'s'``         square marker\n    ``'p'``         pentagon marker\n    ``'P'``         plus (filled) marker\n    ``'*'``         star marker\n    ``'h'``         hexagon1 marker\n    ``'H'``         hexagon2 marker\n    ``'+'``         plus marker\n    ``'x'``         x marker\n    ``'X'``         x (filled) marker\n    ``'D'``         diamond marker\n    ``'d'``         thin_diamond marker\n    ``'|'``         vline marker\n    ``'_'``         hline marker\n    =============   ===============================\n    \n    **Line Styles**\n    \n    =============    ===============================\n    character        description\n    =============    ===============================\n    ``'-'``          solid line style\n    ``'--'``         dashed line style\n    ``'-.'``         dash-dot line style\n    ``':'``          dotted line style\n    =============    ===============================\n    \n    Example format strings::\n    \n        'b'    # blue markers with default shape\n        'or'   # red circles\n        '-g'   # green solid line\n        '--'   # dashed line with default color\n        '^k:'  # black triangle_up markers connected by a dotted line\n    \n    **Colors**\n    \n    The supported color abbreviations are the single letter codes\n    \n    =============    ===============================\n    character        color\n    =============    ===============================\n    ``'b'``          blue\n    ``'g'``          green\n    ``'r'``          red\n    ``'c'``          cyan\n    ``'m'``          magenta\n    ``'y'``          yellow\n    ``'k'``          black\n    ``'w'``          white\n    =============    ===============================\n    \n    and the ``'CN'`` colors that index into the default property cycle.\n    \n    If the color is the only part of the format string, you can\n    additionally use any  `matplotlib.colors` spec, e.g. full names\n    (``'green'``) or hex strings (``'#008000'``)."
   },
   {
     "objectID": "index.html#jupyterhub-7",
     "href": "index.html#jupyterhub-7",
-    "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
-    "section": "Jupyterhub",
-    "text": "Jupyterhub\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\n\nFür viele Python-Objekte erhalten Sie durch die Funktion help eine Ausgabe, z.B. für den Befehl plot:\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\nDurch Drücken der Taste Tabulator erhalten Sie die Autovervollständigung.\n\n\n\n\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\n\nHelp on function plot in module matplotlib.pyplot:\n\nplot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = True, data=None, **kwargs) -&gt; 'list[Line2D]'\n    Plot y versus x as lines and/or markers.\n    \n    Call signatures::\n    \n        plot([x], y, [fmt], *, data=None, **kwargs)\n        plot([x], y, [fmt], [x2], y2, [fmt2], ..., **kwargs)\n    \n    The coordinates of the points or line nodes are given by *x*, *y*.\n    \n    The optional parameter *fmt* is a convenient way for defining basic\n    formatting like color, marker and linestyle. It's a shortcut string\n    notation described in the *Notes* section below.\n    \n    &gt;&gt;&gt; plot(x, y)        # plot x and y using default line style and color\n    &gt;&gt;&gt; plot(x, y, 'bo')  # plot x and y using blue circle markers\n    &gt;&gt;&gt; plot(y)           # plot y using x as index array 0..N-1\n    &gt;&gt;&gt; plot(y, 'r+')     # ditto, but with red plusses\n    \n    You can use `.Line2D` properties as keyword arguments for more\n    control on the appearance. Line properties and *fmt* can be mixed.\n    The following two calls yield identical results:\n    \n    &gt;&gt;&gt; plot(x, y, 'go--', linewidth=2, markersize=12)\n    &gt;&gt;&gt; plot(x, y, color='green', marker='o', linestyle='dashed',\n    ...      linewidth=2, markersize=12)\n    \n    When conflicting with *fmt*, keyword arguments take precedence.\n    \n    \n    **Plotting labelled data**\n    \n    There's a convenient way for plotting objects with labelled data (i.e.\n    data that can be accessed by index ``obj['y']``). Instead of giving\n    the data in *x* and *y*, you can provide the object in the *data*\n    parameter and just give the labels for *x* and *y*::\n    \n    &gt;&gt;&gt; plot('xlabel', 'ylabel', data=obj)\n    \n    All indexable objects are supported. This could e.g. be a `dict`, a\n    `pandas.DataFrame` or a structured numpy array.\n    \n    \n    **Plotting multiple sets of data**\n    \n    There are various ways to plot multiple sets of data.\n    \n    - The most straight forward way is just to call `plot` multiple times.\n      Example:\n    \n      &gt;&gt;&gt; plot(x1, y1, 'bo')\n      &gt;&gt;&gt; plot(x2, y2, 'go')\n    \n    - If *x* and/or *y* are 2D arrays, a separate data set will be drawn\n      for every column. If both *x* and *y* are 2D, they must have the\n      same shape. If only one of them is 2D with shape (N, m) the other\n      must have length N and will be used for every data set m.\n    \n      Example:\n    \n      &gt;&gt;&gt; x = [1, 2, 3]\n      &gt;&gt;&gt; y = np.array([[1, 2], [3, 4], [5, 6]])\n      &gt;&gt;&gt; plot(x, y)\n    \n      is equivalent to:\n    \n      &gt;&gt;&gt; for col in range(y.shape[1]):\n      ...     plot(x, y[:, col])\n    \n    - The third way is to specify multiple sets of *[x]*, *y*, *[fmt]*\n      groups::\n    \n      &gt;&gt;&gt; plot(x1, y1, 'g^', x2, y2, 'g-')\n    \n      In this case, any additional keyword argument applies to all\n      datasets. Also, this syntax cannot be combined with the *data*\n      parameter.\n    \n    By default, each line is assigned a different style specified by a\n    'style cycle'. The *fmt* and line property parameters are only\n    necessary if you want explicit deviations from these defaults.\n    Alternatively, you can also change the style cycle using\n    :rc:`axes.prop_cycle`.\n    \n    \n    Parameters\n    ----------\n    x, y : array-like or float\n        The horizontal / vertical coordinates of the data points.\n        *x* values are optional and default to ``range(len(y))``.\n    \n        Commonly, these parameters are 1D arrays.\n    \n        They can also be scalars, or two-dimensional (in that case, the\n        columns represent separate data sets).\n    \n        These arguments cannot be passed as keywords.\n    \n    fmt : str, optional\n        A format string, e.g. 'ro' for red circles. See the *Notes*\n        section for a full description of the format strings.\n    \n        Format strings are just an abbreviation for quickly setting\n        basic line properties. All of these and more can also be\n        controlled by keyword arguments.\n    \n        This argument cannot be passed as keyword.\n    \n    data : indexable object, optional\n        An object with labelled data. If given, provide the label names to\n        plot in *x* and *y*.\n    \n        .. note::\n            Technically there's a slight ambiguity in calls where the\n            second label is a valid *fmt*. ``plot('n', 'o', data=obj)``\n            could be ``plt(x, y)`` or ``plt(y, fmt)``. In such cases,\n            the former interpretation is chosen, but a warning is issued.\n            You may suppress the warning by adding an empty format string\n            ``plot('n', 'o', '', data=obj)``.\n    \n    Returns\n    -------\n    list of `.Line2D`\n        A list of lines representing the plotted data.\n    \n    Other Parameters\n    ----------------\n    scalex, scaley : bool, default: True\n        These parameters determine if the view limits are adapted to the\n        data limits. The values are passed on to\n        `~.axes.Axes.autoscale_view`.\n    \n    **kwargs : `~matplotlib.lines.Line2D` properties, optional\n        *kwargs* are used to specify properties like a line label (for\n        auto legends), linewidth, antialiasing, marker face color.\n        Example::\n    \n        &gt;&gt;&gt; plot([1, 2, 3], [1, 2, 3], 'go-', label='line 1', linewidth=2)\n        &gt;&gt;&gt; plot([1, 2, 3], [1, 4, 9], 'rs', label='line 2')\n    \n        If you specify multiple lines with one plot call, the kwargs apply\n        to all those lines. In case the label object is iterable, each\n        element is used as labels for each set of data.\n    \n        Here is a list of available `.Line2D` properties:\n    \n        Properties:\n        agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array and two offsets from the bottom left corner of the image\n        alpha: float or None\n        animated: bool\n        antialiased or aa: bool\n        clip_box: `~matplotlib.transforms.BboxBase` or None\n        clip_on: bool\n        clip_path: Patch or (Path, Transform) or None\n        color or c: :mpltype:`color`\n        dash_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        dash_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        dashes: sequence of floats (on/off ink in points) or (None, None)\n        data: (2, N) array or two 1D arrays\n        drawstyle or ds: {'default', 'steps', 'steps-pre', 'steps-mid', 'steps-post'}, default: 'default'\n        figure: `~matplotlib.figure.Figure` or `~matplotlib.figure.SubFigure`\n        fillstyle: {'full', 'left', 'right', 'bottom', 'top', 'none'}\n        gapcolor: :mpltype:`color` or None\n        gid: str\n        in_layout: bool\n        label: object\n        linestyle or ls: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}\n        linewidth or lw: float\n        marker: marker style string, `~.path.Path` or `~.markers.MarkerStyle`\n        markeredgecolor or mec: :mpltype:`color`\n        markeredgewidth or mew: float\n        markerfacecolor or mfc: :mpltype:`color`\n        markerfacecoloralt or mfcalt: :mpltype:`color`\n        markersize or ms: float\n        markevery: None or int or (int, int) or slice or list[int] or float or (float, float) or list[bool]\n        mouseover: bool\n        path_effects: list of `.AbstractPathEffect`\n        picker: float or callable[[Artist, Event], tuple[bool, dict]]\n        pickradius: float\n        rasterized: bool\n        sketch_params: (scale: float, length: float, randomness: float)\n        snap: bool or None\n        solid_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        solid_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        transform: unknown\n        url: str\n        visible: bool\n        xdata: 1D array\n        ydata: 1D array\n        zorder: float\n    \n    See Also\n    --------\n    scatter : XY scatter plot with markers of varying size and/or color (\n        sometimes also called bubble chart).\n    \n    Notes\n    -----\n    \n    .. note::\n    \n        This is the :ref:`pyplot wrapper &lt;pyplot_interface&gt;` for `.axes.Axes.plot`.\n    \n    **Format Strings**\n    \n    A format string consists of a part for color, marker and line::\n    \n        fmt = '[marker][line][color]'\n    \n    Each of them is optional. If not provided, the value from the style\n    cycle is used. Exception: If ``line`` is given, but no ``marker``,\n    the data will be a line without markers.\n    \n    Other combinations such as ``[color][marker][line]`` are also\n    supported, but note that their parsing may be ambiguous.\n    \n    **Markers**\n    \n    =============   ===============================\n    character       description\n    =============   ===============================\n    ``'.'``         point marker\n    ``','``         pixel marker\n    ``'o'``         circle marker\n    ``'v'``         triangle_down marker\n    ``'^'``         triangle_up marker\n    ``'&lt;'``         triangle_left marker\n    ``'&gt;'``         triangle_right marker\n    ``'1'``         tri_down marker\n    ``'2'``         tri_up marker\n    ``'3'``         tri_left marker\n    ``'4'``         tri_right marker\n    ``'8'``         octagon marker\n    ``'s'``         square marker\n    ``'p'``         pentagon marker\n    ``'P'``         plus (filled) marker\n    ``'*'``         star marker\n    ``'h'``         hexagon1 marker\n    ``'H'``         hexagon2 marker\n    ``'+'``         plus marker\n    ``'x'``         x marker\n    ``'X'``         x (filled) marker\n    ``'D'``         diamond marker\n    ``'d'``         thin_diamond marker\n    ``'|'``         vline marker\n    ``'_'``         hline marker\n    =============   ===============================\n    \n    **Line Styles**\n    \n    =============    ===============================\n    character        description\n    =============    ===============================\n    ``'-'``          solid line style\n    ``'--'``         dashed line style\n    ``'-.'``         dash-dot line style\n    ``':'``          dotted line style\n    =============    ===============================\n    \n    Example format strings::\n    \n        'b'    # blue markers with default shape\n        'or'   # red circles\n        '-g'   # green solid line\n        '--'   # dashed line with default color\n        '^k:'  # black triangle_up markers connected by a dotted line\n    \n    **Colors**\n    \n    The supported color abbreviations are the single letter codes\n    \n    =============    ===============================\n    character        color\n    =============    ===============================\n    ``'b'``          blue\n    ``'g'``          green\n    ``'r'``          red\n    ``'c'``          cyan\n    ``'m'``          magenta\n    ``'y'``          yellow\n    ``'k'``          black\n    ``'w'``          white\n    =============    ===============================\n    \n    and the ``'CN'`` colors that index into the default property cycle.\n    \n    If the color is the only part of the format string, you can\n    additionally use any  `matplotlib.colors` spec, e.g. full names\n    (``'green'``) or hex strings (``'#008000'``)."
-  },
-  {
-    "objectID": "index.html#jupyterhub-8",
-    "href": "index.html#jupyterhub-8",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Jupyterhub",
     "text": "Jupyterhub\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\nDie Ausführung von\nplt.plot(xx,np.sqrt(xx), 'kl')\nerzeugt einen Fehler.\nWichtig: Ruhe bewahren!\nVersuchen Sie sich selber zu helfen. Je öfter Sie den Fehler suchen und versuchen diesen zu beheben, desto besser werden Sie darin. In der Regel steht der Fehler ganz unten. Der obere Teil enthält meist ein Backtrace und listet alle bis zum Fehler aufgerufenen Funktionen.\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\nCell In[1], line 7\n      5 xx = np.arange(0,20,0.1)                                                        \n      6 plt.figure(1, figsize=[10,3])                                                   \n----&gt; 7 plt.plot(xx,np.sqrt(xx), 'kl')  \n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/pyplot.py:3827, in plot(scalex, scaley, data, *args, **kwargs)\n   3819 @_copy_docstring_and_deprecators(Axes.plot)\n   3820 def plot(\n   3821     *args: float | ArrayLike | str,\n   (...)   3825     **kwargs,\n   3826 ) -&gt; list[Line2D]:\n-&gt; 3827     return gca().plot(\n   3828         *args,\n   3829         scalex=scalex,\n   3830         scaley=scaley,\n   3831         **({\"data\": data} if data is not None else {}),\n   3832         **kwargs,\n   3833     )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777, in Axes.plot(self, scalex, scaley, data, *args, **kwargs)\n   1534 \"\"\"\n   1535 Plot y versus x as lines and/or markers.\n   1536 \n   (...)   1774 (``'green'``) or hex strings (``'#008000'``).\n   1775 \"\"\"\n   1776 kwargs = cbook.normalize_kwargs(kwargs, mlines.Line2D)\n-&gt; 1777 lines = [*self._get_lines(self, *args, data=data, **kwargs)]\n   1778 for line in lines:\n   1779     self.add_line(line)\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:297, in _process_plot_var_args.__call__(self, axes, data, return_kwargs, *args, **kwargs)\n    295     this += args[0],\n    296     args = args[1:]\n--&gt; 297 yield from self._plot_args(\n    298     axes, this, kwargs, ambiguous_fmt_datakey=ambiguous_fmt_datakey,\n    299     return_kwargs=return_kwargs\n    300 )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:444, in _process_plot_var_args._plot_args(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\n    441 if len(tup) &gt; 1 and isinstance(tup[-1], str):\n    442     # xy is tup with fmt stripped (could still be (y,) only)\n    443     *xy, fmt = tup\n--&gt; 444     linestyle, marker, color = _process_plot_format(\n    445         fmt, ambiguous_fmt_datakey=ambiguous_fmt_datakey)\n    446 elif len(tup) == 3:\n    447     raise ValueError('third arg must be a format string')\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:192, in _process_plot_format(fmt, ambiguous_fmt_datakey)\n    190         i += len(cn_color[0])\n    191     else:\n--&gt; 192         raise ValueError(errfmt.format(fmt, f\"unrecognized character {c!r}\"))\n    194 if linestyle is None and marker is None:\n    195     linestyle = mpl.rcParams['lines.linestyle']\n\nValueError: 'kl' is not a valid format string (unrecognized character 'l')"
@@ -354,6 +165,181 @@
     "href": "index.html#referenzen",
     "title": "Numerische Strömungsmechanik mit Optimierungsanwendung 2",
     "section": "Referenzen",
-    "text": "Referenzen\n\n\n[1] “Flip the Classroom - Mathe lernen mit dem Taschenlehrer und Erklärvideos — fliptheclassroom.de.” https://www.fliptheclassroom.de/.\n\n\n[2] “GitHub - usnistgov/fipy: FiPy is a Finite Volume PDE solver written in Python — github.com.” https://github.com/usnistgov/fipy.\n\n\n[3] “Project Jupyter — jupyter.org.” https://jupyter.org/.\n\n\n[4] F. Moukalled, L. Mangani, and M. Darwish, The finite volume method in computational fluid dynamics: An advanced introduction with OpenFOAM and matlab. Springer International Publishing, 2016. doi: 10.1007/978-3-319-16874-6.\n\n\n[5] K. Weicker, Evolutionäre algorithmen. Springer Fachmedien Wiesbaden, 2015. doi: 10.1007/978-3-658-09958-9.\n\n\n[6] J. H. Ferziger, M. Perić, and R. L. Street, Numerische strömungsmechanik. Springer Berlin Heidelberg, 2020. doi: 10.1007/978-3-662-46544-8.\n\n\n[7] H. K. Versteeg and W. Malalasekera, An introduction to computational fluid dynamics: The finite volume method. Pearson Education Limited, 2007. Available: https://books.google.de/books?id=RvBZ-UMpGzIC"
+    "text": "Referenzen\n\n\n[1] “Flip the Classroom - Mathe lernen mit dem Taschenlehrer und Erklärvideos — fliptheclassroom.de.” https://www.fliptheclassroom.de/.\n\n\n[2] “GitHub - usnistgov/fipy: FiPy is a Finite Volume PDE solver written in Python — github.com.” https://github.com/usnistgov/fipy.\n\n\n[3] “Project Jupyter — jupyter.org.” https://jupyter.org/.\n\n\n[4] F. Moukalled, L. Mangani, and M. Darwish, The finite volume method in computational fluid dynamics: An advanced introduction with OpenFOAM® and matlab. Springer International Publishing, 2016. doi: 10.1007/978-3-319-16874-6.\n\n\n[5] K. Weicker, Evolutionäre algorithmen. Springer Fachmedien Wiesbaden, 2015. doi: 10.1007/978-3-658-09958-9.\n\n\n[6] J. H. Ferziger, M. Perić, and R. L. Street, Numerische strömungsmechanik. Springer Berlin Heidelberg, 2020. doi: 10.1007/978-3-662-46544-8.\n\n\n[7] H. K. Versteeg and W. Malalasekera, An introduction to computational fluid dynamics: The finite volume method. Pearson Education Limited, 2007. Available: https://books.google.de/books?id=RvBZ-UMpGzIC"
+  },
+  {
+    "objectID": "einfuehrung.html",
+    "href": "einfuehrung.html",
+    "title": "Einführung",
+    "section": "",
+    "text": "Vorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
+  },
+  {
+    "objectID": "einfuehrung.html#organisation",
+    "href": "einfuehrung.html#organisation",
+    "title": "Einführung",
+    "section": "",
+    "text": "Vorlesung und Übung\n\nAlexander Tismer\n\nSprechstunde\n\nTermine nach Vereinbarung\n\nBSL mündlich 20 Minuten\n\nTermine nach Vereinbarung"
+  },
+  {
+    "objectID": "einfuehrung.html#konzept",
+    "href": "einfuehrung.html#konzept",
+    "title": "Einführung",
+    "section": "Konzept",
+    "text": "Konzept\n\nKonzept der Vorlesung: Flip-the-classroom @www_fliptheclassroom\nErarbeitung der Grundlagen erfolgt mit den vorbereiteten Videos zu Hause\n\nDer Stoff für eine Einheit wird spätestens eine Woche vorher zur Verfügung gestellt\n\nIm Präsenztermin diskutieren wir Ihre Probleme gemeinsam\n\nKeine Wiederholung des Stoffes\nKeine Präsenz-Pflicht\n\nAlle Materialien zum erfolgreichen Bestehen der BSL sind online"
+  },
+  {
+    "objectID": "einfuehrung.html#konzept-1",
+    "href": "einfuehrung.html#konzept-1",
+    "title": "Einführung",
+    "section": "Konzept",
+    "text": "Konzept\n\nVorgehensmöglichkeiten\nZu jeder Vorlesung gibt es eine Übung. Sie können daher den Stoff auf unterschiedlichen Wegen erarbeiten:\nVorlesungs-basiert\n\nVorlesung durcharbeiten\nBearbeitung der Übung\n\nÜbungs-basiert\n\nBearbeitung der Übung bis Sie nicht mehr weiter kommen\nEinen Teil der Vorlesung bearbeiten\nMit Übung fortfahren\nWeiter bei (2.)"
+  },
+  {
+    "objectID": "einfuehrung.html#zeitplan",
+    "href": "einfuehrung.html#zeitplan",
+    "title": "Einführung",
+    "section": "Zeitplan",
+    "text": "Zeitplan\n\n\n\n\n\n\n\n\n\nVorlesung\n\n\n\n\n\nEinführung\n1\n\n\nFVM und Randbedingungen\n2\n\n\nPython und FiPy\n3\n\n\nLöser\n4\n\n\nNumerische Lösung der inkompressiblen Navier-Stokes-Gleichungen\n5/6\n\n\nParallele Optimierung und Sensitivitätsanalyse\n7\n\n\n\n\n\n\n\n\n\n\n\nÜbung\n\n\n\n\n\nEindimensionale Konvektion-Diffusion\n1\n\n\nLöser\n2\n\n\nSIMPLE-Verfahren\n3/4\n\n\nOptimierung\n5\n\n\n\n\n\n6 Vorlesungen in 7 x 90 Minuten und 4 Übungen in 5 x 90 Minuten"
+  },
+  {
+    "objectID": "einfuehrung.html#inhalt",
+    "href": "einfuehrung.html#inhalt",
+    "title": "Einführung",
+    "section": "Inhalt",
+    "text": "Inhalt\n\n\n\n\n\n\n\n\nVorlesung\n\nKurze Wiederholung der Finite-Volumen-Methode\nBehandlung von Rändern im Berechnungsgebiet\nDiskretisierung von Dirichlet und Neumann Randbedingungen\n\nÜbung\n\nLösung 1D-Konvektion-Diffusion"
+  },
+  {
+    "objectID": "einfuehrung.html#inhalt-1",
+    "href": "einfuehrung.html#inhalt-1",
+    "title": "Einführung",
+    "section": "Inhalt",
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nUnterscheidung direkte und indirekte Verfahren\nEinführung in iterative Gleichungslöser\n\nSplitting-Verfahren\nGradientenverfahren\n\nBedingungen für Konvergenz\n\nÜbung\n\nProgrammierung ausgewählter Verfahren"
+  },
+  {
+    "objectID": "einfuehrung.html#inhalt-2",
+    "href": "einfuehrung.html#inhalt-2",
+    "title": "Einführung",
+    "section": "Inhalt",
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nProbleme beim Lösen der inkompressiblen Navier-Stokes-Gleichungen (Sattelpunktprobleme)\nTheoretische Herleitung des SIMPLE-Verfahrens\n\nÜbung\n\nProgrammierung des SIMPLE-Verfahrens\nLösung einer Hohlraumströmung (Cavity-Flow)"
+  },
+  {
+    "objectID": "einfuehrung.html#inhalt-3",
+    "href": "einfuehrung.html#inhalt-3",
+    "title": "Einführung",
+    "section": "Inhalt",
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nParallele Optimierung\nGrundlagen für eine Multi-Deme-Parallelisierung\n\nÜbung\n\nVergleich zwischen serieller und paralleler Optimierung"
+  },
+  {
+    "objectID": "einfuehrung.html#inhalt-4",
+    "href": "einfuehrung.html#inhalt-4",
+    "title": "Einführung",
+    "section": "Inhalt",
+    "text": "Inhalt\n\n\n\n\nVorlesung\n\nBeschreibung Sensitivitätsanalyse\nMorris-Methode zur effizienten Untersuchung von Systemen mit vielen Unbekannten"
+  },
+  {
+    "objectID": "einfuehrung.html#vorraussetzungen",
+    "href": "einfuehrung.html#vorraussetzungen",
+    "title": "Einführung",
+    "section": "Vorraussetzungen",
+    "text": "Vorraussetzungen\n\nWas sollten Sie mitbingen?\n\nFreude an der Numerik\nIdeal: Numerische Strömungsmechanik mit Optimierungsanwendung 1 gehört\nKeine starken Abneigungen gegen Integrale, Matrizen, Vektoren, Differentialgleichungen, …\nSpaß am Programmieren\nIdeal: Kenntnisse in Python oder einer anderen objekt-orientierten Sprache und Erfahrungen mit “open-source”\nBereitschaft Rückmeldung zu geben und die Veranstaltung aktiv mitzugestalten"
+  },
+  {
+    "objectID": "einfuehrung.html#vorraussetzungen-1",
+    "href": "einfuehrung.html#vorraussetzungen-1",
+    "title": "Einführung",
+    "section": "Vorraussetzungen",
+    "text": "Vorraussetzungen\n\nWas brauchen Sie?\n\nBrowser\nwww\n\n\n\nWelche Hilfsmittel werden verwendet?\n\nPython (Versionen 3.6, 3.7 oder 3.12) \nFiPy @www_fipy \nJupyter @www_jupyter \nConceptboard zur Vorlesung\n\nOptionale Zusatzliteratur: @Moukalled_2016, @Weicker_2015, @Ferziger_2020 und @Versteeg_2007"
+  },
+  {
+    "objectID": "einfuehrung.html#conceptboard",
+    "href": "einfuehrung.html#conceptboard",
+    "title": "Einführung",
+    "section": "Conceptboard",
+    "text": "Conceptboard\n\n\n\n\n\n\nLink zum Board finden Sie auf der Kursseite\nDurch einen Klick auf Abschnitte gelangen Sie zu den Unterlagen der jeweiligen Vorlesung"
+  },
+  {
+    "objectID": "einfuehrung.html#conceptboard-1",
+    "href": "einfuehrung.html#conceptboard-1",
+    "title": "Einführung",
+    "section": "Conceptboard",
+    "text": "Conceptboard\nZum Beispiel zur Einheit Finite-Volumen-Methode und Randbedingungen"
+  },
+  {
+    "objectID": "einfuehrung.html#conceptboard-2",
+    "href": "einfuehrung.html#conceptboard-2",
+    "title": "Einführung",
+    "section": "Conceptboard",
+    "text": "Conceptboard\n\n\n\n\n\n\nDurch die Kommentarfunktion können Sie Fragen, Anmerkungen, Kritik, Fehlerkorrekturen, … in das Board zu den jeweiligen Folien einfügen.\nBitte kommentieren Sie alles was Ihnen auffällt und wo Sie Dinge nicht verstehen. Es hilft allen anderen Studierenden!\nDas Board dient auch zur Kommunikation zwischen Studierenden. Gerne dürfen Sie auf Kommentare von anderen antworten."
+  },
+  {
+    "objectID": "einfuehrung.html#conceptboard-3",
+    "href": "einfuehrung.html#conceptboard-3",
+    "title": "Einführung",
+    "section": "Conceptboard",
+    "text": "Conceptboard\n\n\n\n\n\n\nJeweils über der Titelfolie einer Einheit befinden sich die Kurzfragen. Gerne können Sie die Fragen durch Kommentare beantworten und gemeinsam diskutieren."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub",
+    "href": "einfuehrung.html#jupyterhub",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nAnmeldung\n\n\n\n\n\n\nDer Hub wird vom KIT betrieben; dort können Sie sich mit Ihrem st123456 Account anmelden.\nZur Anmeldung müssen Sie den Benutzername und das Passwort eingeben."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-1",
+    "href": "einfuehrung.html#jupyterhub-1",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nStartseite\n\n\n\n\n\n\nDas korrekte Abbild bekommen Sie über den Link in der Kursseite.\nNachdem das Profil geladen ist, sehen Sie die Startseite.\nDurch einen Klick auf Python 3 in der Rubrik Notebook können Sie ein neues Notebook starten.\nEin Klick auf Terminal startet ein Terminal."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-2",
+    "href": "einfuehrung.html#jupyterhub-2",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nDas erste Notebook\n\n\n\n\n\n\nNeben manuellem Speichern wird regelmäßig automatisch gespeichert\nDurch einen Rechtsklick auf den Tab oder den Dateinamen (Untitled1.ipynb), kann dieser geändert werden.\nZellen werden mit Quelltext befüllt und durch Shift + Enter ausgeführt."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-3",
+    "href": "einfuehrung.html#jupyterhub-3",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nDer erste Code\nKopieren Sie den folgenden Quelltext in die erste Zelle und führen Sie diese mit Shift + Enter aus:\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as pyplot\nimport numpy as np\nErstellen Sie ein eindimensionales Datenfeld durch\nxx = np.arange(0,20,0.1)\nund geben Sie den Inhalt durch\nprint(xx)\nauf die Ausgabe aus."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-4",
+    "href": "einfuehrung.html#jupyterhub-4",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nDie erste Abbildung\nDer folgende Quelltext erzeugt die gezeigte Abbildung:\n\nimport matplotlib\n%matplotlib ipympl\nimport matplotlib.pyplot as plt\nimport numpy as np\nxx = np.arange(0,20,0.1)\nplt.figure(1, figsize=[10,3])\nplt.plot(xx,np.sqrt(xx), 'k-')"
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-5",
+    "href": "einfuehrung.html#jupyterhub-5",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nWie bekomme ich die Notebooks für die Übung?\n\nStarten Sie ein Terminal auf dem Hub.\nRepository mit git klonen.\ncd work && git clone -b move-to-kit https://github.com/atismer/nso2-notebooks.git"
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-6",
+    "href": "einfuehrung.html#jupyterhub-6",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\n\nFür viele Python-Objekte erhalten Sie durch die Funktion help eine Ausgabe, z.B. für den Befehl plot:\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\nDurch Drücken der Taste Tabulator erhalten Sie die Autovervollständigung.\n\n\n\n\nimport matplotlib\nimport matplotlib.pyplot as plt\nhelp(plt.plot)\n\nHelp on function plot in module matplotlib.pyplot:\n\nplot(*args: 'float | ArrayLike | str', scalex: 'bool' = True, scaley: 'bool' = True, data=None, **kwargs) -&gt; 'list[Line2D]'\n    Plot y versus x as lines and/or markers.\n    \n    Call signatures::\n    \n        plot([x], y, [fmt], *, data=None, **kwargs)\n        plot([x], y, [fmt], [x2], y2, [fmt2], ..., **kwargs)\n    \n    The coordinates of the points or line nodes are given by *x*, *y*.\n    \n    The optional parameter *fmt* is a convenient way for defining basic\n    formatting like color, marker and linestyle. It's a shortcut string\n    notation described in the *Notes* section below.\n    \n    &gt;&gt;&gt; plot(x, y)        # plot x and y using default line style and color\n    &gt;&gt;&gt; plot(x, y, 'bo')  # plot x and y using blue circle markers\n    &gt;&gt;&gt; plot(y)           # plot y using x as index array 0..N-1\n    &gt;&gt;&gt; plot(y, 'r+')     # ditto, but with red plusses\n    \n    You can use `.Line2D` properties as keyword arguments for more\n    control on the appearance. Line properties and *fmt* can be mixed.\n    The following two calls yield identical results:\n    \n    &gt;&gt;&gt; plot(x, y, 'go--', linewidth=2, markersize=12)\n    &gt;&gt;&gt; plot(x, y, color='green', marker='o', linestyle='dashed',\n    ...      linewidth=2, markersize=12)\n    \n    When conflicting with *fmt*, keyword arguments take precedence.\n    \n    \n    **Plotting labelled data**\n    \n    There's a convenient way for plotting objects with labelled data (i.e.\n    data that can be accessed by index ``obj['y']``). Instead of giving\n    the data in *x* and *y*, you can provide the object in the *data*\n    parameter and just give the labels for *x* and *y*::\n    \n    &gt;&gt;&gt; plot('xlabel', 'ylabel', data=obj)\n    \n    All indexable objects are supported. This could e.g. be a `dict`, a\n    `pandas.DataFrame` or a structured numpy array.\n    \n    \n    **Plotting multiple sets of data**\n    \n    There are various ways to plot multiple sets of data.\n    \n    - The most straight forward way is just to call `plot` multiple times.\n      Example:\n    \n      &gt;&gt;&gt; plot(x1, y1, 'bo')\n      &gt;&gt;&gt; plot(x2, y2, 'go')\n    \n    - If *x* and/or *y* are 2D arrays, a separate data set will be drawn\n      for every column. If both *x* and *y* are 2D, they must have the\n      same shape. If only one of them is 2D with shape (N, m) the other\n      must have length N and will be used for every data set m.\n    \n      Example:\n    \n      &gt;&gt;&gt; x = [1, 2, 3]\n      &gt;&gt;&gt; y = np.array([[1, 2], [3, 4], [5, 6]])\n      &gt;&gt;&gt; plot(x, y)\n    \n      is equivalent to:\n    \n      &gt;&gt;&gt; for col in range(y.shape[1]):\n      ...     plot(x, y[:, col])\n    \n    - The third way is to specify multiple sets of *[x]*, *y*, *[fmt]*\n      groups::\n    \n      &gt;&gt;&gt; plot(x1, y1, 'g^', x2, y2, 'g-')\n    \n      In this case, any additional keyword argument applies to all\n      datasets. Also, this syntax cannot be combined with the *data*\n      parameter.\n    \n    By default, each line is assigned a different style specified by a\n    'style cycle'. The *fmt* and line property parameters are only\n    necessary if you want explicit deviations from these defaults.\n    Alternatively, you can also change the style cycle using\n    :rc:`axes.prop_cycle`.\n    \n    \n    Parameters\n    ----------\n    x, y : array-like or float\n        The horizontal / vertical coordinates of the data points.\n        *x* values are optional and default to ``range(len(y))``.\n    \n        Commonly, these parameters are 1D arrays.\n    \n        They can also be scalars, or two-dimensional (in that case, the\n        columns represent separate data sets).\n    \n        These arguments cannot be passed as keywords.\n    \n    fmt : str, optional\n        A format string, e.g. 'ro' for red circles. See the *Notes*\n        section for a full description of the format strings.\n    \n        Format strings are just an abbreviation for quickly setting\n        basic line properties. All of these and more can also be\n        controlled by keyword arguments.\n    \n        This argument cannot be passed as keyword.\n    \n    data : indexable object, optional\n        An object with labelled data. If given, provide the label names to\n        plot in *x* and *y*.\n    \n        .. note::\n            Technically there's a slight ambiguity in calls where the\n            second label is a valid *fmt*. ``plot('n', 'o', data=obj)``\n            could be ``plt(x, y)`` or ``plt(y, fmt)``. In such cases,\n            the former interpretation is chosen, but a warning is issued.\n            You may suppress the warning by adding an empty format string\n            ``plot('n', 'o', '', data=obj)``.\n    \n    Returns\n    -------\n    list of `.Line2D`\n        A list of lines representing the plotted data.\n    \n    Other Parameters\n    ----------------\n    scalex, scaley : bool, default: True\n        These parameters determine if the view limits are adapted to the\n        data limits. The values are passed on to\n        `~.axes.Axes.autoscale_view`.\n    \n    **kwargs : `~matplotlib.lines.Line2D` properties, optional\n        *kwargs* are used to specify properties like a line label (for\n        auto legends), linewidth, antialiasing, marker face color.\n        Example::\n    \n        &gt;&gt;&gt; plot([1, 2, 3], [1, 2, 3], 'go-', label='line 1', linewidth=2)\n        &gt;&gt;&gt; plot([1, 2, 3], [1, 4, 9], 'rs', label='line 2')\n    \n        If you specify multiple lines with one plot call, the kwargs apply\n        to all those lines. In case the label object is iterable, each\n        element is used as labels for each set of data.\n    \n        Here is a list of available `.Line2D` properties:\n    \n        Properties:\n        agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array and two offsets from the bottom left corner of the image\n        alpha: float or None\n        animated: bool\n        antialiased or aa: bool\n        clip_box: `~matplotlib.transforms.BboxBase` or None\n        clip_on: bool\n        clip_path: Patch or (Path, Transform) or None\n        color or c: :mpltype:`color`\n        dash_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        dash_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        dashes: sequence of floats (on/off ink in points) or (None, None)\n        data: (2, N) array or two 1D arrays\n        drawstyle or ds: {'default', 'steps', 'steps-pre', 'steps-mid', 'steps-post'}, default: 'default'\n        figure: `~matplotlib.figure.Figure` or `~matplotlib.figure.SubFigure`\n        fillstyle: {'full', 'left', 'right', 'bottom', 'top', 'none'}\n        gapcolor: :mpltype:`color` or None\n        gid: str\n        in_layout: bool\n        label: object\n        linestyle or ls: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}\n        linewidth or lw: float\n        marker: marker style string, `~.path.Path` or `~.markers.MarkerStyle`\n        markeredgecolor or mec: :mpltype:`color`\n        markeredgewidth or mew: float\n        markerfacecolor or mfc: :mpltype:`color`\n        markerfacecoloralt or mfcalt: :mpltype:`color`\n        markersize or ms: float\n        markevery: None or int or (int, int) or slice or list[int] or float or (float, float) or list[bool]\n        mouseover: bool\n        path_effects: list of `.AbstractPathEffect`\n        picker: float or callable[[Artist, Event], tuple[bool, dict]]\n        pickradius: float\n        rasterized: bool\n        sketch_params: (scale: float, length: float, randomness: float)\n        snap: bool or None\n        solid_capstyle: `.CapStyle` or {'butt', 'projecting', 'round'}\n        solid_joinstyle: `.JoinStyle` or {'miter', 'round', 'bevel'}\n        transform: unknown\n        url: str\n        visible: bool\n        xdata: 1D array\n        ydata: 1D array\n        zorder: float\n    \n    See Also\n    --------\n    scatter : XY scatter plot with markers of varying size and/or color (\n        sometimes also called bubble chart).\n    \n    Notes\n    -----\n    \n    .. note::\n    \n        This is the :ref:`pyplot wrapper &lt;pyplot_interface&gt;` for `.axes.Axes.plot`.\n    \n    **Format Strings**\n    \n    A format string consists of a part for color, marker and line::\n    \n        fmt = '[marker][line][color]'\n    \n    Each of them is optional. If not provided, the value from the style\n    cycle is used. Exception: If ``line`` is given, but no ``marker``,\n    the data will be a line without markers.\n    \n    Other combinations such as ``[color][marker][line]`` are also\n    supported, but note that their parsing may be ambiguous.\n    \n    **Markers**\n    \n    =============   ===============================\n    character       description\n    =============   ===============================\n    ``'.'``         point marker\n    ``','``         pixel marker\n    ``'o'``         circle marker\n    ``'v'``         triangle_down marker\n    ``'^'``         triangle_up marker\n    ``'&lt;'``         triangle_left marker\n    ``'&gt;'``         triangle_right marker\n    ``'1'``         tri_down marker\n    ``'2'``         tri_up marker\n    ``'3'``         tri_left marker\n    ``'4'``         tri_right marker\n    ``'8'``         octagon marker\n    ``'s'``         square marker\n    ``'p'``         pentagon marker\n    ``'P'``         plus (filled) marker\n    ``'*'``         star marker\n    ``'h'``         hexagon1 marker\n    ``'H'``         hexagon2 marker\n    ``'+'``         plus marker\n    ``'x'``         x marker\n    ``'X'``         x (filled) marker\n    ``'D'``         diamond marker\n    ``'d'``         thin_diamond marker\n    ``'|'``         vline marker\n    ``'_'``         hline marker\n    =============   ===============================\n    \n    **Line Styles**\n    \n    =============    ===============================\n    character        description\n    =============    ===============================\n    ``'-'``          solid line style\n    ``'--'``         dashed line style\n    ``'-.'``         dash-dot line style\n    ``':'``          dotted line style\n    =============    ===============================\n    \n    Example format strings::\n    \n        'b'    # blue markers with default shape\n        'or'   # red circles\n        '-g'   # green solid line\n        '--'   # dashed line with default color\n        '^k:'  # black triangle_up markers connected by a dotted line\n    \n    **Colors**\n    \n    The supported color abbreviations are the single letter codes\n    \n    =============    ===============================\n    character        color\n    =============    ===============================\n    ``'b'``          blue\n    ``'g'``          green\n    ``'r'``          red\n    ``'c'``          cyan\n    ``'m'``          magenta\n    ``'y'``          yellow\n    ``'k'``          black\n    ``'w'``          white\n    =============    ===============================\n    \n    and the ``'CN'`` colors that index into the default property cycle.\n    \n    If the color is the only part of the format string, you can\n    additionally use any  `matplotlib.colors` spec, e.g. full names\n    (``'green'``) or hex strings (``'#008000'``)."
+  },
+  {
+    "objectID": "einfuehrung.html#jupyterhub-7",
+    "href": "einfuehrung.html#jupyterhub-7",
+    "title": "Einführung",
+    "section": "Jupyterhub",
+    "text": "Jupyterhub\n\nWie kann ich mir helfen?\n\nCodeAusgabe\n\n\nDie Ausführung von\nplt.plot(xx,np.sqrt(xx), 'kl')\nerzeugt einen Fehler.\nWichtig: Ruhe bewahren!\nVersuchen Sie sich selber zu helfen. Je öfter Sie den Fehler suchen und versuchen diesen zu beheben, desto besser werden Sie darin. In der Regel steht der Fehler ganz unten. Der obere Teil enthält meist ein Backtrace und listet alle bis zum Fehler aufgerufenen Funktionen.\n\n\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\nCell In[1], line 7\n      5 xx = np.arange(0,20,0.1)                                                        \n      6 plt.figure(1, figsize=[10,3])                                                   \n----&gt; 7 plt.plot(xx,np.sqrt(xx), 'kl')  \n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/pyplot.py:3827, in plot(scalex, scaley, data, *args, **kwargs)\n   3819 @_copy_docstring_and_deprecators(Axes.plot)\n   3820 def plot(\n   3821     *args: float | ArrayLike | str,\n   (...)   3825     **kwargs,\n   3826 ) -&gt; list[Line2D]:\n-&gt; 3827     return gca().plot(\n   3828         *args,\n   3829         scalex=scalex,\n   3830         scaley=scaley,\n   3831         **({\"data\": data} if data is not None else {}),\n   3832         **kwargs,\n   3833     )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_axes.py:1777, in Axes.plot(self, scalex, scaley, data, *args, **kwargs)\n   1534 \"\"\"\n   1535 Plot y versus x as lines and/or markers.\n   1536 \n   (...)   1774 (``'green'``) or hex strings (``'#008000'``).\n   1775 \"\"\"\n   1776 kwargs = cbook.normalize_kwargs(kwargs, mlines.Line2D)\n-&gt; 1777 lines = [*self._get_lines(self, *args, data=data, **kwargs)]\n   1778 for line in lines:\n   1779     self.add_line(line)\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:297, in _process_plot_var_args.__call__(self, axes, data, return_kwargs, *args, **kwargs)\n    295     this += args[0],\n    296     args = args[1:]\n--&gt; 297 yield from self._plot_args(\n    298     axes, this, kwargs, ambiguous_fmt_datakey=ambiguous_fmt_datakey,\n    299     return_kwargs=return_kwargs\n    300 )\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:444, in _process_plot_var_args._plot_args(self, axes, tup, kwargs, return_kwargs, ambiguous_fmt_datakey)\n    441 if len(tup) &gt; 1 and isinstance(tup[-1], str):\n    442     # xy is tup with fmt stripped (could still be (y,) only)\n    443     *xy, fmt = tup\n--&gt; 444     linestyle, marker, color = _process_plot_format(\n    445         fmt, ambiguous_fmt_datakey=ambiguous_fmt_datakey)\n    446 elif len(tup) == 3:\n    447     raise ValueError('third arg must be a format string')\n\nFile /opt/conda/lib/python3.12/site-packages/matplotlib/axes/_base.py:192, in _process_plot_format(fmt, ambiguous_fmt_datakey)\n    190         i += len(cn_color[0])\n    191     else:\n--&gt; 192         raise ValueError(errfmt.format(fmt, f\"unrecognized character {c!r}\"))\n    194 if linestyle is None and marker is None:\n    195     linestyle = mpl.rcParams['lines.linestyle']\n\nValueError: 'kl' is not a valid format string (unrecognized character 'l')"
+  },
+  {
+    "objectID": "einfuehrung.html#referenzen",
+    "href": "einfuehrung.html#referenzen",
+    "title": "Einführung",
+    "section": "Referenzen",
+    "text": "Referenzen"
   }
 ]
